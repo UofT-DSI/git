@@ -1,22 +1,16 @@
-# Unix, Git and GitHub
+# Working in software teams with Git and GitHub
 
 ## Contents
-1. [Description](https://github.com/UofT-DSI/01-shell_git_github#description)
-2. [Learning Outcomes](https://github.com/UofT-DSI/01-shell_git_github#learning-outcomes)
-3. [Design](https://github.com/UofT-DSI/01-shell_git_github#design)
-4. [Expectations](https://github.com/UofT-DSI/01-shell_git_github#expectations)
-5. [Policies](https://github.com/UofT-DSI/01-shell_git_github#policies)
-6. [Schedule](https://github.com/UofT-DSI/01-shell_git_github#schedule)
-7. [Folder Structure](https://github.com/UofT-DSI/01-shell_git_github#folder-structure)
+1. [Description](#description)
+2. [Learning Outcomes](#learning-outcomes)
+3. [Design](#design)
+4. [Expectations](#expectations)
+5. [Policies](#policies)
+6. [Schedule](#schedule)
+7. [Folder Structure](#folder-structure)
 
 ## Description
-The beginning of the course will introduce the basic language of Unix shell including how to navigate and manipulate files and directories. Learners will then learn certain commands, how to create scripts and write basic functions using pipes, filters and loops. 
-
-The next portion of the lesson will be dedicated to getting started with version control and GitHub, and how it connects to the ethical discussions of reproducibility. Learners will learn how to set up Git and initialize and utilize repositories, including recording, viewing and undoing changes. They will also learn how to create branches and collaborate with others with shared branches. This course will put it all together and introduce some more advanced commands such as de-bugging and history editing.
-
-Finally, learners will determine how to problem-solve by identifying where the issue is and how to search with Google and Stack Overflow. This will then lead to the topic of reproducibility and how to contribute by commenting code and writing documentation.
-
-In the final week, students will learn about ethics and inequity and why it's important to include these discussions within their projects. This class will be discussion based and will require students to do readings before the class.
+The first portion of this lesson will be dedicated to getting started with version control and GitHub, and how it connects to the ethical discussions of reproducibility. Learners will learn how to set up Git and initialize and utilize repositories, including recording, viewing and undoing changes. They will also learn how to create branches and collaborate with others with shared branches. This course will put it all together and introduce some more advanced commands such as de-bugging and history editing.
 
 Throughout the entire course, students will learn how to problem solve through live coding. They will also learn about reproducibility and how to centre it within their work.
 
@@ -24,10 +18,7 @@ This course is designed for those who have a degree in something other than Comp
 
 ## Learning Outcomes
 Students will know how to:
-1. Comfortably access the terminal and write scripts using basic commands, variables, pipes, filters and loops. This will be assessed in Assignment 1.
-2. How to use version control to preserve personal work, access and edit pervious code versions, collaborate with others, and find and debug errors. This will be assessed in Assignment 2.
-3. Self-problem solve by identifying issues, researching, or properly formulating questions using components of reproducibility. This will be assessed in both Assignment 1 and Assignment 2.
-4. Situate all work within wider discussions of ethics and inequity. Students will actively scrutinize who is and isn't in our datasets and develop knowledge of past abuses of power to better engage their work with ethical considerations. This will be assessed in Assignment 2.
+2. How to use version control to preserve personal work, access and edit pervious code versions, collaborate with others, and find and debug errors
 
 ## Design
 The workshop will be held over three weeks, three days a week. Two of the three days will be 2-hours long and the last day will be 3-hours. Being mindful of online fatigue, there will be one break during each class where students are encouraged to stretch, grab a drink and snacks, or ask any additional questions.
@@ -40,12 +31,6 @@ The course is a live-coding class. Students are expected to follow along with th
 2. Class will start 5 minutes past the designated time.
 
 ## Schedule
-Day 1: Unix Shell I (introducing the Shell, introductory commands, files and directories)
-
-Day 2: Unix Shell II (input/output and pipes/filters)
-
-Day 3: Unix Shell III (shell scripts, shell functions, parameters, flow control)
-
 Day 4: Version Control and GitHub I (introducing version control and GitHub, basic Git commands)
 
 Day 5: Version Control and GitHub II (remote repositories; branching)
