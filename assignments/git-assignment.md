@@ -8,11 +8,11 @@ Submit your short answer as a GitHub issue in this repo https://github.com/dtxe/
 
 ## Tasks
 ### Task 1
-Upload your Git Assignment 2 commits to GitHub.
+Upload your Git Homework 2 commits to GitHub.
 
 1. Fork the following repo: https://github.com/dtxe/DSI_git_assignment
-    * This is the same repo you cloned in Git Assignment 2
-1. Navigate into your local clone of this repo from Assignment 2
+    * This is the same repo you cloned in Git Homework 2
+1. Navigate into your local clone of this repo from Homework 2
 1. Add your GitHub fork as a tracked remote repository
     * `git remote add myfork <url>`
 1. Push your new commits to your fork
@@ -26,3 +26,16 @@ Create a Pull Request with your commits to the upstream repo.
 
 ## Submission
 * Submit the link to your issue and your pull request in a Google Doc inside your submission folder
+
+## Grading
+Your assignment will be graded based on the following learning outcomes. The minimum passing grade is 4/5.
+* I can use Git to clone a repository, add commits, and push to remote repositories
+    * Added your commits to your fork
+* I can develop code in parallel using Git branches
+    * Merged branches as specified in homework 2
+* I know how to resolve merge conflicts
+    * Merge conflict resolved in homework 2
+* I can create or fork repositories on GitHub
+    * Forked the template repository
+* I can use GitHub collaboration tools
+    * GitHub issue and pull request created
