@@ -1,4 +1,4 @@
-# Git Assignment 2
+# Git Homework 2
 
 ## Short answer
 1. What makes a good Git commit message? Write your answer in the Google Doc
