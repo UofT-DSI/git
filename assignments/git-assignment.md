@@ -1,4 +1,4 @@
-# Git Assignment 3
+# Git Assignment
 
 ## Short answer
 1. What key items should be included in a GitHub Issue or bug report to enable a developer to diagnose and fix the bug?

@@ -28,6 +28,6 @@ Day 3: Version Control and GitHub III (collaborating on GitHub)
 ## Due Dates
 | **Item**   | **Due date**                       | **Submission instructions**                                                                  |   |   |
 |------------|------------------------------------|----------------------------------------------------------------------------------------------|---|---|
-| [Homework 1](assignments\git-homework-1.md) | Due on Tuesday, Feb 6 at 6:00pm.   | Ungraded. Submit via Google Drive if you'd like feedback.          |   |   |
-| [Homework 2](assignments\git-homework-2.md) | Due on Wednesday, Feb 7 at 6:00pm. | Ungraded. Submit via Google Drive if you'd like feedback.          |   |   |
-| [Assignment](assignments\git-assignment.md) | Due Monday, Feb 12 at 6:00pm.      | Submit on GitHub and via Google Drive in a document named LASTNAME_FIRSTNAME_Git_Assignment. |   |   |
+| [Homework 1](assignments/git-homework-1.md) | Due on Tuesday, Feb 6 at 6:00pm.   | Ungraded. Submit via Google Drive if you'd like feedback.          |   |   |
+| [Homework 2](assignments/git-homework-2.md) | Due on Wednesday, Feb 7 at 6:00pm. | Ungraded. Submit via Google Drive if you'd like feedback.          |   |   |
+| [Assignment](assignments/git-assignment.md) | Due Monday, Feb 12 at 6:00pm.      | Submit on GitHub and via Google Drive in a document named LASTNAME_FIRSTNAME_Git_Assignment. |   |   |

@@ -1,4 +1,4 @@
-# Git Assignment 1
+# Git Homework 1
 
 ## Tasks
 ### Task 1
