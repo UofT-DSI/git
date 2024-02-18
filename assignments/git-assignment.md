@@ -1,41 +1,35 @@
 # Git Assignment
 
-## Short answer
-1. What key items should be included in a GitHub Issue or bug report to enable a developer to diagnose and fix the bug?
+1. Create a new repository called `git_assignment` under the `UofT-DSI` GitHub organization without a `README.md`
+2. Clone it to your local computer
+3. Create a `README.md` and paste the following code inside:
 
-Submit your short answer as a GitHub issue in this repo https://github.com/dtxe/DSI_git_assignment.
+    ```markdown
+    # Git Assignment - Your GitHub name
+    ```
 
+4. Stage, commit and push the repo
+5. Create a new branch calld `assignment`
+6. In your `README.md`, answer the following questions:
 
-## Tasks
-### Task 1
-Upload your Git Homework 2 commits to GitHub.
+    a. What is an issue?
+    
+    b. What is a pull request?
 
-1. Fork the following repo: https://github.com/dtxe/DSI_git_assignment
-    * This is the same repo you cloned in Git Homework 2
-1. Navigate into your local clone of this repo from Homework 2
-1. Add your GitHub fork as a tracked remote repository
-    * `git remote add myfork <url>`
-1. Push your new commits to your fork
-    * `git push`
+    c. How do I open up a pull request?
+    
+    d. Give me a step by step guide on how to add someone to your repository.
 
-### Task 2
-Create a Pull Request with your commits to the upstream repo.
+    e. What is the difference between `git` and `GitHub`?
 
-1. Create a pull request from your repo's main branch into the main branch of https://github.com/dtxe/DSI_git_assignment
+    f. What does `git diff` do?
 
+    g. What is the `main` branch?
+
+    h. Besides our initial commit if it is a new repository, should we directly push our changes directly into the `main` branch?
 
 ## Submission
-* Submit the link to your issue and your pull request in a Google Doc inside your submission folder
 
-## Grading
-Your assignment will be graded based on the following learning outcomes. The minimum passing grade is 4/5.
-* I can use Git to clone a repository, add commits, and push to remote repositories
-    * Added your commits to your fork
-* I can develop code in parallel using Git branches
-    * Merged branches as specified in homework 2
-* I know how to resolve merge conflicts
-    * Merge conflict resolved in homework 2
-* I can create or fork repositories on GitHub
-    * Forked the template repository
-* I can use GitHub collaboration tools
-    * GitHub issue and pull request created
+1. When you are done, please commit your changes, and push it to GitHub.
+2. Open up a pull request and add your TA as a reviewer. You may need to add them to your repository.
+3. Write down on your pull request what you learned from this assignment.
