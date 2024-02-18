@@ -3,7 +3,6 @@
 ## Cheatsheet
 - [Atlassian](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
 - [GitHub](https://education.github.com/git-cheat-sheet-education.pdf)
-- 
 
 ## Videos
 - [Most common git commands](https://www.youtube.com/watch?v=PSJ63LULKHA)
