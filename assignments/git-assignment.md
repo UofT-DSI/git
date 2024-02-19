@@ -28,8 +28,10 @@
 
     h. Besides our initial commit if it is a new repository, should we directly push our changes directly into the `main` branch?
 
+Feel free to at any point (recommended after answering every 2 questions) to stage, commit and push your work to GitHub. It is a great way to practice using `git`!
+
 ## Submission
 
-1. When you are done, please commit your changes, and push it to GitHub.
+1. When you are done, please stage, commit your changes, and push it to GitHub.
 2. Open up a pull request and add your TA as a reviewer. You may need to add them to your repository.
 3. Write down on your pull request what you learned from this assignment.
