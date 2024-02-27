@@ -27,7 +27,6 @@ paginate: true
 # **Unix Shell Homework**
 ```console
 $ echo "Data Sciences Institute"
-$ echo "by: Rachael Lam"
 ```
 
 ---
@@ -61,5 +60,3 @@ Clone a repo of your choice from GitHub. Save the first 10 instances of `git log
 **To submit:**
     1. A screenshot of your terminal commands
     2. txt file of `git log`
-
-**Due:** Thursday, Feb 16th
