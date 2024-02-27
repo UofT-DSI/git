@@ -99,7 +99,7 @@ Feel free to use the following as resources:
 |-- .gitignore
 ```
 
-* **slides:** Course slides as interactive notebooks (.ipynb files)
+* **slides:** Directory containing all slide types such as pdf and pptx
 * **pptx slides:** Course slides as Powerpoint files
 * **pdf slides:** Course slides as PDF files
 * **live-coding:** Notebooks from class live coding sessions
