@@ -1,5 +1,22 @@
 # Working in software teams with Git and GitHub
 
+## Contents
+* [Description](#description)
+* [Learning Outcomes](#learning-outcomes)
+* [Assignments](#assignments)
+* [Course Contacts](#course-contacts)
+* [Delivery of Module](#delivery-of-module)
+  + [How the Instructor will deliver](#how-the-instructor-will-deliver)
+  + [Expectations](#expectations)
+* [Schedule](#schedule)
+* [Policies](#policies)
+* [Requirements](#requirements)
+* [Resources](#resources)
+  + [Cheatsheet](#cheatsheet)
+  + [Videos](#videos)
+  + [How to get help](#how-to-get-help)
+* [Folder Structure](#folder-structure)
+
 ## Description
 The first portion of this lesson will be dedicated to getting started with version control and GitHub, and how it connects to the ethical discussions of reproducibility. Learners will learn how to set up Git and initialize and utilize repositories, including recording, viewing and undoing changes. They will also learn how to create branches and collaborate with others with shared branches. This course will put it all together and introduce some more advanced commands such as de-bugging and history editing.
 
