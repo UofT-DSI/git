@@ -57,7 +57,6 @@ style: |
 # **Version Control and GitHub**
 ```console
 $ echo "Data Sciences Institute"
-$ echo "Rachael Lam"
 ```
 
 ---
@@ -96,13 +95,13 @@ Version Control Systems (VCS) can do a number of things and can be applied on ne
 ##### **Local Version Control Systems**
 Local VCSs were developed to keep track of changes to our files by putting them in a version database.
 
-![bg right contain](pics/LVC.png)
+![bg right contain](../pics/LVC.png)
 
 ---
 ##### **Centralized Version Control Systems**
 Centralized VCSs (CVCS) were developed to enable collaboration with developers on other systems. CVCSs have a single server that contains all the versioned files.
 
-![bg left contain](pics/CVCS.png)
+![bg left contain](../pics/CVCS.png)
 
 ---
 CVCSs allow some level of transparency to others' work and give Administrators a level of control over what developers can and can't do.
@@ -116,7 +115,7 @@ To handle the limitations of LVCSs and CVCSs, Distributed VCSs were created. Thi
 Collaborators mirror the entire repsoitory, therefore if a server dies, any one of the collaborators' repositories can be copied back to the server to restore it.
 
 ---
-![w:560 center](pics/DVCS.png)
+![w:560 center](../pics/DVCS.png)
 
 ---
 <!--_color: white -->
@@ -135,7 +134,7 @@ Git thinks of data in a very different way than other VCSs. Instead of storing a
 If files have not changed, Git does not store the file again, it links to the previous identical file already stored.
 
 ---
-![w:1100 center](pics/git_data.png)
+![w:1100 center](../pics/git_data.png)
 
 ---
 ##### **Local Operations**
@@ -339,19 +338,19 @@ If we want to collaborate on an existing repo, we need to clone the repo from Gi
 1. Create a new project
 <br>
 
-![w:1100 center](pics/creatingrepo1.png)
+![w:1100 center](../pics/creatingrepo1.png)
 
 ---
 2. Add name and optional description
 <br>
 
-![w:1100 center](pics/creatingrepo2.png)
+![w:1100 center](../pics/creatingrepo2.png)
 
 ---
 3. Choose public or private and add initialize
 <br>
 
-![w:1000 center](pics/creatingrepo3.png)
+![w:1000 center](../pics/creatingrepo3.png)
 
 ---
 There are a number of automatically generated files such as log files that we might not want Git to add or show as untracked. We can create a file called `.gitignore` to ignore the automatically generated files. 
@@ -361,7 +360,7 @@ The `.gitignore` is dependent on the type of coding language you are using but c
 ---
 If we created a repo on GitHub, we can choose a `.gitignore` template. We can select a template specific to the coding language we are using.
 
-![w:900 center](pics/gitignoresmall.png)
+![w:900 center](../pics/gitignoresmall.png)
 
 ---
 Once we have our repo, we can clone it:
@@ -373,7 +372,7 @@ Using this code, we've created a repo called `git-module` (by taking the last pa
 ---
 The url used in the previous code block is copied directly from GitHub by clicking code and copying the HTTPS:
 
-![w:1150 center](pics/github.png)
+![w:1150 center](../pics/github.png)
 
 ---
 If we want to change the name of the repo, we can specify that as the next command line option:
@@ -407,7 +406,7 @@ Files in our working directory can either be tracked or untracked. Tracked files
 When we modify a file, Git keeps track of the modifications even before we've decided to commit. We can then stage the modifications and then commit.
 
 ---
-![w:1000 center](pics/workflow.png)
+![w:1000 center](../pics/workflow.png)
 
 ---
 ##### **File Status**
@@ -919,10 +918,10 @@ Before we connect our local repo to a remote repo, we need to setup our permissi
 ---
 ##### **Access Tokens**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![w:350 left](pics/settings.png) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![w:340 right](pics/developer.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![w:350 left](../pics/settings.png) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![w:340 right](../pics/developer.png)
 
 ---
-![w:1150 center](pics/personalauth.png)
+![w:1150 center](../pics/personalauth.png)
 
 ---
 ##### **SSH**
@@ -1027,10 +1026,10 @@ Here we can see the URL that we're fetching and pulling from, our remote branche
 ---
 To send and retrieve work between our local and remote repositories, we have to authenticate a personal access token:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![w:350 left](pics/settings.png) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![w:340 right](pics/developer.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![w:350 left](../pics/settings.png) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![w:340 right](../pics/developer.png)
 
 ---
-![w:1150 center](pics/personalauth.png)
+![w:1150 center](../pics/personalauth.png)
 
 ---
 <!--_color: white -->
@@ -1103,12 +1102,12 @@ To understand how branching works, let's go back and understand how Git saves fi
 - pointer
 
 ---
-![w:1000 center](pics/blobs.png)
+![w:1000 center](../pics/blobs.png)
 
 ---
 A branch is a way to move different pointers to a specific commit. In Git, the default branch is named *master* or *main*. When we first start making commits, we start at the master branch that automatically points to the last commit made.
 
-![w:700 center](pics/master.png)
+![w:700 center](../pics/master.png)
 
 ---
 <!--_color: white -->
@@ -1124,7 +1123,7 @@ $ git branch testing
 ---
 Here, we've created a branch called testing, which means we've created a new pointer that could point to our current commit.
 
-![w:800 center](pics/testing.png)
+![w:800 center](../pics/testing.png)
 
 ---
 <!--_color: white -->
@@ -1146,12 +1145,12 @@ Switched to branch 'testing'
 ```
 
 ---
-![w:800 center](pics/testing-head.png)
+![w:800 center](../pics/testing-head.png)
 
 ---
 If we make some changes to our testing branch and commit, our head will move with the new commit.
 
-![w:800 center](pics/testing-commit.png)
+![w:800 center](../pics/testing-commit.png)
 
 ---
 If we want to go back to an older version of our project and make changes, we can use `git checkout` again to redirect the head back to our master branch:
@@ -1175,19 +1174,19 @@ Let's take a look at a workflow that you might encounter:
 ```console
 $ git commit -m "commits to master branch"
 ```
-![w:800 center](pics/workflow1.png) 
+![w:800 center](../pics/workflow1.png) 
 
 ---
 ```console
 $ git checkout -b iss53
 ```
-![w:600 center](pics/workflow2.png)
+![w:600 center](../pics/workflow2.png)
 
 ---
 ```console
 $ git commit -a -m "commits to iss53"
 ```
-![w:700 center](pics/workflow3.png)
+![w:700 center](../pics/workflow3.png)
 
 ---
 ```console
@@ -1195,14 +1194,14 @@ $ git checkout master
 $ git checkout -b 'hotfix'
 $ git commit -m "commits to hotfix"
 ```
-![w:600 center](pics/workflow4.png)
+![w:600 center](../pics/workflow4.png)
 
 ---
 ```console
 $ git checkout master
 $ git merge hotfix
 ```
-![w:500 center](pics/workflow5.png)
+![w:500 center](../pics/workflow5.png)
 
 ---
 <!--_color: white -->
@@ -1217,7 +1216,7 @@ $ git merge testing
 ```
 
 ---
-![w:600 center](pics/delete-branch.png)
+![w:600 center](../pics/delete-branch.png)
 
 ---
 We can then delete the branch that we've created, as the master branch points to the same place.
@@ -1230,14 +1229,14 @@ $ git branch -d testing
 ---
 Remember that changes to our master branch have not been added to our *iss53* branch. We either need to `pull` them in or wait to integrate them when we `pull` *iss53* into the master branch
 
-![w:600 center](pics/difference.png)
+![w:600 center](../pics/difference.png)
 
 ---
 If we're merging a branch with the main that has been changed since we diverged, merging isn't as simple for Git.
 
 Git will create a new snapshot of the merge and automatically create a new commit that points to it, called a `merge commit`.
 
-![w:600 center](pics/merge.png)
+![w:600 center](../pics/merge.png)
 
 ---
 We saw `git branch` earlier with the option `-d` to delete a branch, but to get a list of our current branches, we can run `git branch` without any arguments.
@@ -1275,7 +1274,7 @@ For example, if we've changed the same part of the same file differently in the 
 Luckily, Git helps us see where the error is to correct it.
 
 ---
-![bg contain](pics/mergeconflicts.png)
+![bg contain](../pics/mergeconflicts.png)
 
 ---
 Git shows us the beginning of the merge conflict with 
@@ -1306,15 +1305,15 @@ Typically, developers will keep the master branch as the stable branch or code t
 Braches can also have various levels of stability, and will graduate/merge branches once they're fully tested.
 
 ---
-![w:1000 center](pics/topics.png)
+![w:1000 center](../pics/to../pics.png)
 
 ---
 ##### **Topic Branches**
-Topic branches are short-lived branches that are created for a particular feature or related work. They allow us to quickly switch between topics and keep changes there for as long or as little as needed, regardless of the created or modified order, before merging.
+Topic branches are short-lived branches that are created for a particular feature or related work. They allow us to quickly switch between to../pics and keep changes there for as long or as little as needed, regardless of the created or modified order, before merging.
 
 ---
 
-![w:600 left](pics/topics2.png) ![w:435 right](pics/topics3.png)
+![w:600 left](../pics/to../pics2.png) ![w:435 right](../pics/to../pics3.png)
 
 ---
 <!--_color: white -->
@@ -1436,10 +1435,10 @@ Policies regarding how to contribute work can differ between projects, even by h
 ---
 Let's take a look at a couple possible workflows:
 
-![w:500 center](pics/colabworkflow.png)
+![w:500 center](../pics/colabworkflow.png)
 
 ---
-![w:600 center](pics/colabworkflow2.png)
+![w:600 center](../pics/colabworkflow2.png)
 
 ---
 <!--_color: white -->
@@ -1450,13 +1449,13 @@ Let's take a look at a couple possible workflows:
 ##### **Adding Collaborators**
 To collaborate with others on our GitHub repo, we can add collaborators so they have direct access to the repo:
 
-![w:1100 center](pics/gitcollabs1.png)
+![w:1100 center](../pics/gitcollabs1.png)
 
 ---
-![w:1100 center](pics/gitcollabs2.png)
+![w:1100 center](../pics/gitcollabs2.png)
 
 ---
-![w:800 center](pics/gitcollabs3.png)
+![w:800 center](../pics/gitcollabs3.png)
 
 ---
 Access does not have to be permanent. We can remove collaborators at any time and add additional ones when needed.
@@ -1467,7 +1466,7 @@ Granting access to your repo this way, enables collaborators to make changes and
 ##### **Forking Projects**
 Forking allows us to collaborate on projects without push access. We can fork a public project on GitHub and then clone it into our local server to begin making changes.
 
-![w:1150 center](pics/fork1.png)
+![w:1150 center](../pics/fork1.png)
 
 ---
 Once a project has been forked, we can find the repo in our GitHub repositories. We can then clone the repo (`git clone`), make changes and push our changes without altering the original repo.
@@ -1480,40 +1479,40 @@ If we're collaborating with someone and we want our changes to be merged to the 
 ##### **Pull Request**
 After making a few changes, we now want to create a pull request to merge our changes with the original repo. We can do this directly in GitHub:
 
-![w:1100 center](pics/pullrequest2.png)
+![w:1100 center](../pics/pullrequest2.png)
 
 ---
 To the pull request, we can see what branches and repos we're attempting to merge:
 
-![w:800 center](pics/pullrequest3.png)
+![w:800 center](../pics/pullrequest3.png)
 
 ---
 We can also see the changes that were made:
 
-![w:1100 center](pics/pullrequest4.png)
+![w:1100 center](../pics/pullrequest4.png)
 
 ---
 GitHub will also check to make sure that there are no conflicts with the base branch:
 
-![w:900 center](pics/pullrequest5.png)
+![w:900 center](../pics/pullrequest5.png)
 
 ---
 Pull requests with no merge conflicts are easy to merge into the branches but it gets more complicated if there are merge conflicts:
 
-![w:1100 center](pics/pullrequestmergeconflict.png)
+![w:1100 center](../pics/pullrequestmergeconflict.png)
 
 ---
 You can still create a pull request with merge conflicts:
 
-![w:1100 center](pics/pullrequestmergeconflict2.png)
+![w:1100 center](../pics/pullrequestmergeconflict2.png)
 
 ---
-![w:1000 center](pics/pullrequestmergeconflict3.png)
+![w:1000 center](../pics/pullrequestmergeconflict3.png)
 
 ---
 To resolve conflicts, it's very similar to merging conflicts through terminal:
 
-![w:1100 center](pics/pullrequestmergeconflict4.png)
+![w:1100 center](../pics/pullrequestmergeconflict4.png)
 
 Because resolving conflicts is done on GitHub, it's a good practice to resove conflicts before creating a pull request.
 
@@ -1549,17 +1548,17 @@ Issues can be *opened* on GitHub and even when they're *closed*, they remain ava
 ---
 To open an issue, navigate to the project page and click *Issues*:
 
-![w:1100 center](pics/issues.png)
+![w:1100 center](../pics/issues.png)
 
 ---
 Then open a new issue:
 
-![w:1100 center](pics/issues2.png)
+![w:1100 center](../pics/issues2.png)
 
 ---
 From here, we can add a title and description of the issue, and add any specific collaborators, labels, etc.
 
-![w:1100 center](pics/issues3.png)
+![w:1100 center](../pics/issues3.png)
 
 ---
 ##### **Information**
@@ -2058,7 +2057,7 @@ What similarities can you see?
 ## Second Largest Heading
 ### Third Largest Heading
 ```
-![w:1000 center](pics/headings.png)
+![w:1000 center](../pics/headings.png)
 
 ---
 ##### **Text Styling**
@@ -2069,14 +2068,14 @@ What similarities can you see?
 **this is a *nested* example**
 ***bold and italic***
 ```
-![w:1000 center](pics/text-styling.png)
+![w:1000 center](../pics/text-styling.png)
 
 ---
 ##### **Quoting**
 ```markdown
 > Block quote some text
 ```
-![w:1000 center](pics/blockquote.png)
+![w:1000 center](../pics/blockquote.png)
 
 ---
 ##### **Unordered Lists**
@@ -2086,7 +2085,7 @@ What similarities can you see?
     - nested
         - second nest
 ```
-![w:1000 center](pics/unordered.png)
+![w:1000 center](../pics/unordered.png)
 
 ---
 ##### **Ordered Lists**
@@ -2096,27 +2095,27 @@ What similarities can you see?
     - with some additional information
 3. This is the third
 ```
-![W:1000 center](pics/ordered.png)
+![W:1000 center](../pics/ordered.png)
 
 ---
 ##### **Codeblock**
 Wrap your code in ``` to create a codeblock.
 
-![W:1000 center](pics/codeblock.png)
+![W:1000 center](../pics/codeblock.png)
 
 ---
 ##### **Links**
 ```markdown
 [Rachael's GitHub](https://github.com/rachaellam)
 ```
-![W:1000 center](pics/link.png)
+![W:1000 center](../pics/link.png)
 
 ---
 ##### **Images**
 ```markdown
-![w:1000 center](pics/picture.png)
+![w:1000 center](../pics/picture.png)
 ```
-![w:500 center](pics/bobs-burgers-louise.gif)
+![w:500 center](../pics/bobs-burgers-louise.gif)
 As we see, images can also be GIFs. We can also play around with the size and alignment.
 
 ---

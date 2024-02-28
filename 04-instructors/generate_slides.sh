@@ -5,8 +5,8 @@
 # ---------- #
 
 # Hard code the folder locations
-folder_md="slides-resources"
-folder_pdf="lessons"
+folder_md="lessons/markdown"
+folder_pdf="lessons/pdf"
 
 # Make the lessons folder if it does not exist already
 if [ ! -d "$folder_pdf" ]; then

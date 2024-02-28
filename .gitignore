@@ -1,1 +1,4 @@
 .DS_Store
+/04-instructors/lessons/pdf/*
+/04-instructors/lessons/html/*
+/04-instructors/lessons/pptx/*
