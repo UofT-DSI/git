@@ -38,19 +38,19 @@ If we want to collaborate on an existing repo, we need to clone the repo from Gi
 1. Create a new project
 <br>
 
-![w:1100 center](../pics/creatingrepo1.png)
+![w:1100 center](./pics/creatingrepo1.png)
 
 ---
 2. Add name and optional description
 <br>
 
-![w:1100 center](../pics/creatingrepo2.png)
+![w:1100 center](./pics/creatingrepo2.png)
 
 ---
 3. Choose public or private and add initialize
 <br>
 
-![w:1000 center](../pics/creatingrepo3.png)
+![w:1000 center](./pics/creatingrepo3.png)
 
 ---
 There are a number of automatically generated files such as log files that we might not want Git to add or show as untracked. We can create a file called `.gitignore` to ignore the automatically generated files. 
@@ -60,7 +60,7 @@ The `.gitignore` is dependent on the type of coding language you are using but c
 ---
 If we created a repo on GitHub, we can choose a `.gitignore` template. We can select a template specific to the coding language we are using.
 
-![w:900 center](../pics/gitignoresmall.png)
+![w:900 center](./pics/gitignoresmall.png)
 
 ---
 Once we have our repo, we can clone it:
@@ -72,7 +72,7 @@ Using this code, we've created a repo called `git-module` (by taking the last pa
 ---
 The url used in the previous code block is copied directly from GitHub by clicking code and copying the HTTPS:
 
-![w:1150 center](../pics/github.png)
+![w:1150 center](./pics/github.png)
 
 ---
 If we want to change the name of the repo, we can specify that as the next command line option:
@@ -106,7 +106,7 @@ Files in our working directory can either be tracked or untracked. Tracked files
 When we modify a file, Git keeps track of the modifications even before we've decided to commit. We can then stage the modifications and then commit.
 
 ---
-![w:1000 center](../pics/workflow.png)
+![w:1000 center](./pics/workflow.png)
 
 ---
 ##### File Status
@@ -300,10 +300,10 @@ Before we connect our local repo to a remote repo, we need to setup our permissi
 ---
 ##### Access Tokens
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![w:350 left](../pics/settings.png) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![w:340 right](../pics/developer.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![w:350 left](./pics/settings.png) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![w:340 right](./pics/developer.png)
 
 ---
-![w:1150 center](../pics/personalauth.png)
+![w:1150 center](./pics/personalauth.png)
 
 ---
 ##### remote add
@@ -328,10 +328,10 @@ Here we can see the URL that we're fetching and pulling from, our remote branche
 ---
 To send and retrieve work between our local and remote repositories, we have to authenticate a personal access token:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![w:350 left](../pics/settings.png) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![w:340 right](../pics/developer.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![w:350 left](./pics/settings.png) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![w:340 right](./pics/developer.png)
 
 ---
-![w:1150 center](../pics/personalauth.png)
+![w:1150 center](./pics/personalauth.png)
 
 ---
 
@@ -404,12 +404,12 @@ To understand how branching works, let's go back and understand how Git saves fi
 - pointer
 
 ---
-![w:1000 center](../pics/blobs.png)
+![w:1000 center](./pics/blobs.png)
 
 ---
 A branch is a way to move different pointers to a specific commit. In Git, the default branch is named *master* or *main*. When we first start making commits, we start at the master branch that automatically points to the last commit made.
 
-![w:700 center](../pics/master.png)
+![w:700 center](./pics/master.png)
 
 ---
 
@@ -425,7 +425,7 @@ $ git branch testing
 ---
 Here, we've created a branch called testing, which means we've created a new pointer that could point to our current commit.
 
-![w:800 center](../pics/testing.png)
+![w:800 center](./pics/testing.png)
 
 ---
 
@@ -447,12 +447,12 @@ Switched to branch 'testing'
 ```
 
 ---
-![w:800 center](../pics/testing-head.png)
+![w:800 center](./pics/testing-head.png)
 
 ---
 If we make some changes to our testing branch and commit, our head will move with the new commit.
 
-![w:800 center](../pics/testing-commit.png)
+![w:800 center](./pics/testing-commit.png)
 
 ---
 If we want to go back to an older version of our project and make changes, we can use `git checkout` again to redirect the head back to our master branch:
@@ -476,19 +476,19 @@ Let's take a look at a workflow that you might encounter:
 ```console
 $ git commit -m "commits to master branch"
 ```
-![w:800 center](../pics/workflow1.png) 
+![w:800 center](./pics/workflow1.png) 
 
 ---
 ```console
 $ git checkout -b iss53
 ```
-![w:600 center](../pics/workflow2.png)
+![w:600 center](./pics/workflow2.png)
 
 ---
 ```console
 $ git commit -a -m "commits to iss53"
 ```
-![w:700 center](../pics/workflow3.png)
+![w:700 center](./pics/workflow3.png)
 
 ---
 ```console
@@ -496,14 +496,14 @@ $ git checkout master
 $ git checkout -b 'hotfix'
 $ git commit -m "commits to hotfix"
 ```
-![w:600 center](../pics/workflow4.png)
+![w:600 center](./pics/workflow4.png)
 
 ---
 ```console
 $ git checkout master
 $ git merge hotfix
 ```
-![w:500 center](../pics/workflow5.png)
+![w:500 center](./pics/workflow5.png)
 
 ---
 ##### Pushing

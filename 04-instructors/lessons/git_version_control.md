@@ -95,13 +95,13 @@ Version Control Systems (VCS) can do a number of things and can be applied on ne
 ##### Local Version Control Systems
 Local VCSs were developed to keep track of changes to our files by putting them in a version database.
 
-![bg right contain](../pics/LVC.png)
+![bg right contain](./pics/LVC.png)
 
 ---
 ##### Centralized Version Control Systems
 Centralized VCSs (CVCS) were developed to enable collaboration with developers on other systems. CVCSs have a single server that contains all the versioned files.
 
-![bg left contain](../pics/CVCS.png)
+![bg left contain](./pics/CVCS.png)
 
 ---
 CVCSs allow some level of transparency to others' work and give Administrators a level of control over what developers can and can't do.
@@ -115,7 +115,7 @@ To handle the limitations of LVCSs and CVCSs, Distributed VCSs were created. Thi
 Collaborators mirror the entire repsoitory, therefore if a server dies, any one of the collaborators' repositories can be copied back to the server to restore it.
 
 ---
-![w:560 center](../pics/DVCS.png)
+![w:560 center](./pics/DVCS.png)
 
 ---
 
@@ -134,7 +134,7 @@ Git thinks of data in a very different way than other VCSs. Instead of storing a
 If files have not changed, Git does not store the file again, it links to the previous identical file already stored.
 
 ---
-![w:1100 center](../pics/git_data.png)
+![w:1100 center](./pics/git_data.png)
 
 ---
 ##### Local Operations
