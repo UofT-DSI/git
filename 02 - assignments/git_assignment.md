@@ -37,3 +37,9 @@ Feel free to at any point (recommended after answering every 2 questions) to sta
 1. When you are done, please stage, commit your changes, and push it to GitHub.
 2. Open up a pull request and add your TA as a reviewer. You may need to add them to your repository.
 3. Write down on your pull request what you learned from this assignment.
+
+|Criteria|Pass|Fail|
+|---|---|---|
+|Branching|A new branch was created and used|A new branch was not created and used.|
+|Pull Request|A pull request with the answers to the questions was made.|No pull request or answers were made.|
+|Explanation Quality|There was at least one sentence answer per question.|A one word answer per question was given.|
