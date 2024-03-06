@@ -89,22 +89,17 @@ Feel free to use the following as resources:
 ## Folder Structure
 
 ```markdown
-|-- 01 - slides
-|   |-- instructor-notes
-|   |-- pptx
-|   |-- pdf
-|   |-- live-coding
-|-- 02 - assignments
-|-- 03 - homework
+|-- 01-slides
+|-- 02-assignments
+|-- 03-homework
+|-- 04-instructors
 |-- .gitignore
 ```
 
-* **slides:** Directory containing all slide types such as pdf and pptx
-* **pptx slides:** Course slides as Powerpoint files
-* **pdf slides:** Course slides as PDF files
+* **slides:** Course slides as PDF files
 * **live-coding:** Notebooks from class live coding sessions
 * **homework:** Optional homework to practice concepts covered in class
 * **assignments:** Graded assignments
-* **instructor-notes:** Instructions for the Instructor on what to teach
+* **instructors:** Instructions for the Instructor on what to teach
 * README: This file!
 * .gitignore: Files to exclude from this folder, specified by the instructor
