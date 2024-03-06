@@ -96,8 +96,7 @@ Feel free to use the following as resources:
 |-- .gitignore
 ```
 
-* **slides:** Course slides as PDF files
-* **live-coding:** Notebooks from class live coding sessions
+* **slides:** Course slides as PDF or PPTX files
 * **homework:** Optional homework to practice concepts covered in class
 * **assignments:** Graded assignments
 * **instructors:** Instructions for the Instructor on what to teach
