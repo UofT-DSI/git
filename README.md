@@ -52,7 +52,7 @@ The schedule is tentative and may be modified as needed. Learners will be notifi
 
 ||Day 1|Day 2|Day 3|Day 4|
 |---|---|---|---|---|
-|Week 1|Lecture 1 (Shell)|Work Period 1|Lecture 2 (Git & Github)|Work Period 2|
+|Week 1|Lecture 1 ([Shell](https://github.com/UofT-DSI/shell))|Work Period 1|Lecture 2 (Git & Github)|Work Period 2|
  
 ## Policies
 * **Accessibility:** We want to provide an accessible learning environment for all. If there is something we can do to make this course more accessible to you, please let us know.
@@ -82,7 +82,7 @@ Feel free to use the following as resources:
 - [Git vs GitHub: What's the difference?](https://www.youtube.com/watch?v=wpISo9TNjfU)
 
 ### How to get help
-![image](/Steps%20to%20ask%20for%20help.png)
+![image](/steps-to-ask-for-help.png)
 
 <hr>
 
