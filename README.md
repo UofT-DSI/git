@@ -4,7 +4,7 @@
 * [Description](#description)
 * [Learning Outcomes](#learning-outcomes)
 * [Assignments](#assignments)
-* [Course Contacts](#course-contacts)
+* [Module Contacts](#module-contacts)
 * [Delivery of Module](#delivery-of-module)
   + [How the Instructor will deliver](#how-the-instructor-will-deliver)
   + [Expectations](#expectations)
@@ -18,11 +18,11 @@
 * [Folder Structure](#folder-structure)
 
 ## Description
-The first portion of this lesson will be dedicated to getting started with version control and GitHub, and how it connects to the ethical discussions of reproducibility. Learners will learn how to set up Git and initialize and utilize repositories, including recording, viewing and undoing changes. They will also learn how to create branches and collaborate with others with shared branches. This course will put it all together and introduce some more advanced commands such as de-bugging and history editing.
+The first portion of this lesson will be dedicated to getting started with version control and GitHub, and how it connects to the ethical discussions of reproducibility. Learners will learn how to set up Git and initialize and utilize repositories, including recording, viewing and undoing changes. They will also learn how to create branches and collaborate with others with shared branches. This Module will put it all together and introduce some more advanced commands such as de-bugging and history editing.
 
-Throughout the entire course, Learners will learn how to problem solve through live coding. They will also learn about reproducibility and how to centre it within their work.
+Throughout the entire Module, Learners will learn how to problem solve through live coding. They will also learn about reproducibility and how to centre it within their work.
 
-This course is designed for those who have a degree in something other than Computer Science/Statistics who are looking to enhance their data science skills for their career.
+This Module is designed for those who have a degree in something other than Computer Science/Statistics who are looking to enhance their data science skills for their career.
 
 ## Learning Outcomes
 By the end of the module, learners will:
@@ -32,7 +32,7 @@ By the end of the module, learners will:
 ## Assignments
 **Git Assignment:** In this assignment, you will be learning more about `git` and `GitHub` by working through the questions. As you answer the questions, you will practice your git skills by staging, commiting and pushing your answers (changes) along the way.
 
-## Course Contacts
+## Module Contacts
 **Questions can be submitted to the #questions channel on Slack**
 
 * Instructor: **{Name}** {Pronouns}. Emails to the instructor can be sent to {first_name.last_name}@mail.utoronto.ca.
@@ -55,8 +55,8 @@ The schedule is tentative and may be modified as needed. Learners will be notifi
 |Week 1|Lecture 1 ([Shell](https://github.com/UofT-DSI/shell))|Work Period 1|Lecture 2 (Git & Github)|Work Period 2|
  
 ## Policies
-* **Accessibility:** We want to provide an accessible learning environment for all. If there is something we can do to make this course more accessible to you, please let us know.
-* **Course communications:** Communications take place over email or on Slack. If communicating over email, please include "DSI-Git" or similar in the subject line, e.g. "DSI-Git: pandas question"
+* **Accessibility:** We want to provide an accessible learning environment for all. If there is something we can do to make this Module more accessible to you, please let us know.
+* **Module communications:** Communications take place over email or on Slack. If communicating over email, please include "DSI-Git" or similar in the subject line, e.g. "DSI-Git: pandas question"
 * **Camera:** Keeping your camera on is optional.
 * **Microphone:** Please keep microphones muted unless you need to speak. Please indicate your name before speaking as some Zoom configurations make it hard to tell who is talking!
 * **Assessment:** There will be homework which **is not** graded, but highly recommended, and there will be two assignments which **are** graded.
@@ -96,7 +96,7 @@ Feel free to use the following as resources:
 |-- .gitignore
 ```
 
-* **slides:** Course slides as PDF or PPTX files
+* **slides:** Module slides as PDF or PPTX files
 * **homework:** Optional homework to practice concepts covered in class
 * **assignments:** Graded assignments
 * **instructors:** Instructions for the Instructor on what to teach
