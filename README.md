@@ -50,9 +50,10 @@ Learners are encouraged to be active participants while coding and are encourage
 ## Schedule
 The schedule is tentative and may be modified as needed. Learners will be notified of schedule changes.
 
-||Day 1|Day 2|Day 3|Day 4|
-|---|---|---|---|---|
-|Week 1|Lecture 1 ([Shell](https://github.com/UofT-DSI/shell))|Work Period 1|Lecture 2 (Git & Github)|Work Period 2|
+||Day 1|Day 2|Day 3|Day 4|Day 5|
+|---|---|---|---|---|---|
+|Week 1|Lecture 1 ([Shell](https://github.com/UofT-DSI/shell))|Lecture 2 (Shell)|Lecture 3 (Git & Github)|Work Period 1|Work Period 2|
+
  
 ## Policies
 * **Accessibility:** We want to provide an accessible learning environment for all. If there is something we can do to make this Module more accessible to you, please let us know.
