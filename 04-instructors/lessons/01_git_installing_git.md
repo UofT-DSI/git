@@ -1,19 +1,17 @@
 ---
 marp: true
-theme: uncover
+theme: dsi-certificates-theme
 _class: invert
 paginate: true
 ---
 
-
-
 # Installing Git
-```console
+
+```
 $ echo "Data Sciences Institute"
 ```
 
 ---
-
 
 ## `Installing Git`
 

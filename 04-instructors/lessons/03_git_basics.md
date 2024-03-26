@@ -1,16 +1,17 @@
 ---
 marp: true
-theme: uncover
+theme: dsi-certificates-theme
 _class: invert
 paginate: true
 ---
 
 # Git Basics
-```console
+```
 $ echo "Data Sciences Institute"
 ```
 
 ---
+
 References
 - Chacon and Straub: Chapter 2
 
