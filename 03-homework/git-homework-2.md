@@ -6,7 +6,7 @@
 1. What makes a good Git commit message? Write your answer in the Google Doc
 
 ## Tasks
-The `dtxe/DSI_git_assignment` repository contains a short Python script that 
+The `DSI/git_homework-2` repository contains a short Python script that 
 loads the TTC Bus Delay dataset, computes the average delay by route, then 
 plots the average delay as a histogram.
 
@@ -20,8 +20,8 @@ get this code working by merging the fixes.
 
 1. Check the current status and commit history
     * `git status` and `git log`
-1. Merge the `bugfix1` branch into the main branch
-1. 📸 Take a screenshot of your terminal output
+2. Merge the `bugfix1` branch into the main branch
+3. 📸 Take a screenshot of your terminal output
 
 ### Task 2
 We've also been working on an additional feature in a separate branch.
@@ -30,16 +30,16 @@ This allows us to aggregate the data by any arbitrary column in the DataFrame, n
 Let's merge this feature in.
 
 1. Merge the `feature1` branch into the main branch.
-1. 📸 Take a screenshot of your terminal output
+2. 📸 Take a screenshot of your terminal output
 
 ### Task 3
 Uh oh! It looks like there's a merge conflict between the bugfix and the new feature!
 
 1. Resolve the merge conflict in your choice of editor
     * We suggest using VSCode!
-1. Complete the merge after fixing the conflict.
-1. 📸 Take a screenshot of your terminal output
-1. Copy and paste the new Analyze.py file into the Google Doc
+2. Complete the merge after fixing the conflict.
+3. 📸 Take a screenshot of your terminal output
+4. Copy and paste the new Analyze.py file into the Google Doc
 
 
 ## Submission
