@@ -36,13 +36,13 @@ By the end of the module, learners will:
 **Questions can be submitted to the #questions channel on Slack**
 
 * Technical Facilitator: **{Name}** {Pronouns}. Emails to the instructor can be sent to {first_name.last_name}@mail.utoronto.ca.
-* Learning Support: **{Name}** {Pronouns}. Emails to the instructor can be sent to {first_name.last_name}@mail.utoronto.ca.
+* Learning Support Staff: **{Name}** {Pronouns}. Emails to the instructor can be sent to {first_name.last_name}@mail.utoronto.ca.
  
 ## Delivery of Module
 The module will run sychronously twice a week on Zoom. The first two days are used as "lectures" and will last a maximum of 3 hours. During this time, the instructor will introduce the concepts for the week. The last two days are used for as optional, asychronous work periods. The work periods will also last for up to 3 hours. During these two days, an instructor or TA will be present on Zoom to assist learners reach the intended learning outcomes.
 
 ### How the Technical Facilitator will deliver
-The instructors will introduce the concepts through a collaborative demonstration along with the use of the slides.
+The Technical Facilitator will introduce the concepts through a collaborative demonstration along with the use of the slides.
  
 ### Expectations
 Learners are encouraged to be active participants while coding and are encouraged to ask questions throughout the module.
@@ -94,7 +94,7 @@ Feel free to use the following as resources:
 ├── 01-slides
 ├── 02-assignments
 ├── 03-homework
-├── 04-instructors
+├── 04-Technical Facilitator
 ├── LICENSE
 ├── README.md
 └── steps-to-ask-for-help.png
@@ -103,6 +103,6 @@ Feel free to use the following as resources:
 * **slides:** Module slides as PDF or PPTX files
 * **homework:** Optional homework to practice concepts covered in class
 * **assignments:** Graded assignments
-* **instructors:** Instructions for the Technical Facilitator on what to teach
+* **Technical Facilitator:** Instructions for the Technical Facilitator on what to teach
 * README: This file!
 * .gitignore: Files to exclude from this folder, specified by the instructor
