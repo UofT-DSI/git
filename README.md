@@ -94,7 +94,7 @@ Feel free to use the following as resources:
 ├── 01-slides
 ├── 02-assignments
 ├── 03-homework
-├── 04-Technical Facilitator
+├── 04-instructors
 ├── LICENSE
 ├── README.md
 └── steps-to-ask-for-help.png
@@ -103,6 +103,6 @@ Feel free to use the following as resources:
 * **slides:** Module slides as PDF or PPTX files
 * **homework:** Optional homework to practice concepts covered in class
 * **assignments:** Graded assignments
-* **Technical Facilitator:** Instructions for the Technical Facilitator on what to teach
+* **instructors:** Instructions for the Technical Facilitator on what to teach
 * README: This file!
 * .gitignore: Files to exclude from this folder, specified by the instructor
