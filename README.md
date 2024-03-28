@@ -35,11 +35,11 @@ By the end of the module, learners will:
 ## Module Contacts
 **Questions can be submitted to the #questions channel on Slack**
 
-* Technical Facilitator: **{Name}** {Pronouns}. Emails to the instructor can be sent to {first_name.last_name}@mail.utoronto.ca.
-* Learning Support Staff: **{Name}** {Pronouns}. Emails to the instructor can be sent to {first_name.last_name}@mail.utoronto.ca.
+* Technical Facilitator: **{Name}** {Pronouns}. Emails to the Technical Facilitator can be sent to {first_name.last_name}@mail.utoronto.ca.
+* Learning Support Staff: **{Name}** {Pronouns}. Emails to the Learning Support can be sent to {first_name.last_name}@mail.utoronto.ca.
  
 ## Delivery of Module
-The module will run sychronously twice a week on Zoom. The first two days are used as "lectures" and will last a maximum of 3 hours. During this time, the instructor will introduce the concepts for the week. The last two days are used for as optional, asychronous work periods. The work periods will also last for up to 3 hours. During these two days, an instructor or TA will be present on Zoom to assist learners reach the intended learning outcomes.
+The module will run sychronously twice a week on Zoom. The first two days are used as "lectures" and will last a maximum of 3 hours. During this time, the Technical Facilitator will introduce the concepts for the week. The last two days are used for as optional, asychronous work periods. The work periods will also last for up to 3 hours. During these two days, an Technical Facilitator or Learning Support will be present on Zoom to assist learners reach the intended learning outcomes.
 
 ### How the Technical Facilitator will deliver
 The Technical Facilitator will introduce the concepts through a collaborative demonstration along with the use of the slides.
@@ -105,4 +105,4 @@ Feel free to use the following as resources:
 * **assignments:** Graded assignments
 * **instructors:** Instructions for the Technical Facilitator on what to teach
 * README: This file!
-* .gitignore: Files to exclude from this folder, specified by the instructor
+* .gitignore: Files to exclude from this folder, specified by the Technical Facilitator
