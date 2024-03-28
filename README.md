@@ -83,7 +83,7 @@ Feel free to use the following as resources:
 - [Git vs GitHub: What's the difference?](https://www.youtube.com/watch?v=wpISo9TNjfU)
 
 ### How to get help
-![image](/steps-to-ask-for-help.png)
+![image](/steps_to_ask_for_help.png)
 
 <hr>
 
@@ -91,13 +91,13 @@ Feel free to use the following as resources:
 
 ```markdown
 .
-├── 01-slides
-├── 02-assignments
-├── 03-homework
-├── 04-instructors
+├── 01_slides
+├── 02_assignments
+├── 03_homework
+├── 04_instructors
 ├── LICENSE
 ├── README.md
-└── steps-to-ask-for-help.png
+└── steps_to_ask_for_help.png
 ```
 
 * **slides:** Module slides as PDF or PPTX files
