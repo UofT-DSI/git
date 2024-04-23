@@ -36,8 +36,17 @@ Participants should review the [Assignment Submission Guide](https://github.com/
 
 **Questions can be submitted to the _#cohort-3-help_ channel on Slack**
 
-* Technical Facilitator: **{Name}** {Pronouns}. Emails to the Technical Facilitator can be sent to {first_name.last_name}@mail.utoronto.ca.
-* Learning Support Staff: **{Name}** {Pronouns}. Emails to the Learning Support can be sent to {first_name.last_name}@mail.utoronto.ca.
+* Technical Facilitator:   
+  * **Simeon Wong** (he/him)  
+    simeonm.wong@utoronto.ca
+
+* Learning Support Staff: 
+  * **Michaela Drouillard** (she/her)  
+  michaela.drouillard@mail.utoronto.ca
+  * **Julia Gallucci** (she/her)  
+  julia.gallucci@mail.utoronto.ca
+  * **Emma Teng**  
+  e.teng@mail.utoronto.ca
  
 ##  Delivery of the Learning Module
 
