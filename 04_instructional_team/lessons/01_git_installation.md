@@ -77,10 +77,10 @@ If we haven't configured Git, we can do that now!
 
 ---
 ##### Identity
-First, we'll set our username and email address. Git uses this information everytime we commit.
+First, we'll set our username and email address. Git uses this information every time we commit.
 ```console
-$ git config --global user.name "Rachael Lam"
-$ git config --global user.email "rachael.a.lam@gmail.com"
+$ git config --global user.name "Jane Doe"
+$ git config --global user.email "jane.doe@gmail.com"
 ```
 The option `--global` means that we only have to pass this through once.
 
