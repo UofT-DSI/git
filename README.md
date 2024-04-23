@@ -28,9 +28,9 @@ By the end of the module, participants will be able to:
 
 ## Assignments
 
-1. [Git Assignment](https://github.com/UofT-DSI/git/blob/main/02_assignments/git_assignment.md)
-
 Participants should review the [Assignment Submission Guide](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md) for instructions on how to complete assignments in this module.
+
+1. [Git Assignment](https://github.com/UofT-DSI/git/blob/main/02_assignments/git_assignment.md)
 
 ## Contacts
 
