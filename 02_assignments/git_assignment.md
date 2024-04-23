@@ -39,7 +39,7 @@ Feel free to at any point (recommended after answering every 2 questions) to sta
 
 ## Criteria
 
-|Criteria|Pass|Fail|
+|Criteria|Complete|Incomplete|
 |---|---|---|
 |Branching|A new branch was created and used|A new branch was not created and used.|
 |Pull Request|A pull request with the answers to the questions was made.|No pull request or answers were made.|
@@ -47,7 +47,7 @@ Feel free to at any point (recommended after answering every 2 questions) to sta
 
 ## Submission Information
 
-🚨**Please review our [Assignment Submission Guide](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md)**🚨 for detailed instructions on how to format, branch, and submit your work. Following these guidelines is crucial for your submissions to be evaluated correctly.
+🚨 **Please review our [Assignment Submission Guide](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md)** 🚨 for detailed instructions on how to format, branch, and submit your work. Following these guidelines is crucial for your submissions to be evaluated correctly.
 
 ### Submission Parameters:
 * Submission Due Date: `11:59 PM - 28/04/2024`
