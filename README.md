@@ -1,4 +1,4 @@
-# Git
+# Git and GitHub
 
 ## Contents
 * [Description](#description)
@@ -16,7 +16,7 @@
 
 ## Description
 
-This module is focused on version control with Git, and how it connects to the ethical discussions of reproducibility. Learners will set up Git and create and use repositories, including recording, viewing and undoing changes. They will also learn how to create branches and collaborate with others with shared branches. This module will also introduce some more advanced commands such as de-bugging and history editing.
+This module is focused on version control with Git and GitHub, and how it connects to the ethical discussions of reproducibility. Learners will set up Git and create and use repositories, including recording, viewing and undoing changes. They will also learn how to create branches and collaborate with others with shared branches. This module will also introduce some more advanced commands such as de-bugging and history editing.
 
 Throughout the entire module, Learners will learn how to problem-solve through live coding. They will also learn about reproducibility and how to center it within their work.
 
@@ -64,7 +64,7 @@ The schedule is tentative and may be modified as needed. Learners will be notifi
 
 ||Day 1|Day 2|Day 3|Day 4|Day 5|
 |---|---|---|---|---|---|
-|Week 1|Lecture 1 ([Shell](https://github.com/UofT-DSI/shell))|Lecture 2 (Shell)|Lecture 3 (Git)|Work Period 1|Work Period 2|
+|Week 1|Lecture 1 ([Shell](https://github.com/UofT-DSI/shell))|Lecture 2 (Shell)|Lecture 3 (Git & GitHub)|Work Period 1|Work Period 2|
  
 ## Requirements
 
@@ -72,7 +72,7 @@ The schedule is tentative and may be modified as needed. Learners will be notifi
 * Learners are encouraged to ask questions and collaborate with others to enhance learning.
 * Learners must have a computer and an internet connection to participate in online activities.
 * Learners must not use generative AI such as ChatGPT to generate code to complete assignments. It should be used as a supportive tool to seek out answers to questions you may have.
-* We expect learners to have completed the [onboarding repo](https://github.com/UofT-DSI/Onboarding/tree/tech-onboarding-docs).
+* We expect learners to have completed the [onboarding repo](https://github.com/UofT-DSI/onboarding/tree/main/onboarding_documents).
 * Using a webcam is optional although highly encouraged. We understand that not everyone may have the space at home to have the camera on.
 
 ## Resources
@@ -91,7 +91,7 @@ Feel free to use the following as resources:
 
 ### How to get help
 
-![image](/steps_to_ask_for_help.png)
+![image](./steps_to_ask_for_help.png)
 
 <hr>
 
@@ -102,7 +102,7 @@ Feel free to use the following as resources:
 ├── 01_slides
 ├── 02_assignments
 ├── 03_homework
-├── 04_instructors
+├── 04_instructional_team
 ├── LICENSE
 ├── README.md
 └── steps_to_ask_for_help.png

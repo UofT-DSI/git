@@ -213,8 +213,8 @@ If we haven't configured Git, we can do that now!
 ##### Identity
 First, we'll set our username and email address. Git uses this information everytime we commit.
 ```console
-$ git config --global user.name "Rachael Lam"
-$ git config --global user.email "rachael.a.lam@gmail.com"
+$ git config --global user.name "Jane Doe"
+$ git config --global user.email "jane.doe@gmail.com"
 ```
 The option `--global` means that we only have to pass this through once.
 
@@ -711,7 +711,7 @@ $ git log --stat
 ---
 ```console
 commit 6c91df668d1899317a643153bd169d37fe05d9f1 (HEAD -> main)
-Author: Rachael Lam <rachael.a.lam@gmail.com>
+Author: Jane Doe <jane.doe@gmail.com>
 Date:   Fri Feb 18 14:56:27 2022 -0500
 
     first commit
@@ -1264,7 +1264,8 @@ Topic branches are short-lived branches that are created for a particular featur
 
 ---
 
-![w:600 left](./pics/04_topics2.png) ![w:435 right](./pics/04_topics3.png)
+![w:600 left](./pics/04_topics_2.png) 
+![w:435 right](./pics/04_topics_3.png)
 
 ---
 
@@ -1599,9 +1600,9 @@ File annotation can help us resolve issues in our code if we know where thie iss
 
 ```console
 $ git blame -L 1,3 script.sh
-^8e9b89da (Rachael Lam  2021-12-02 15:01:02 -0500  1) #line 1
-8e9b89da (Rachael Lam   2021-12-02 15:01:02 -0500  2) #line 2
-8e9b89da (Rachael Lam   2021-12-02 15:01:02 -0500  3) #line 3 
+^8e9b89da (Jane Doe  2021-12-02 15:01:02 -0500  1) #line 1
+8e9b89da (Jane Doe   2021-12-02 15:01:02 -0500  2) #line 2
+8e9b89da (Jane Doe   2021-12-02 15:01:02 -0500  3) #line 3 
 ```
 
 ---

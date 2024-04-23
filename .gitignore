@@ -1,4 +1,5 @@
 .DS_Store
-/04_instructors/lessons/pdf/*
-/04_instructors/lessons/html/*
-/04_instructors/lessons/pptx/*
+.vscode/
+/04_instructional_team/lessons/pdf/*
+/04_instructional_team/lessons/html/*
+/04_instructional_team/lessons/pptx/*
