@@ -111,6 +111,6 @@ Feel free to use the following as resources:
 * **slides:** Module slides as PDF or PPTX files.
 * **homework:** Homework to practice concepts covered in class.
 * **assignments:** Assignments.
-* **instructors:** This folder provides guidance for Technical Facilitators and the Learning Support team on teaching methodologies and content delivery.
+* **instructors:** This folder guides Technical Facilitators and the Learning Support team on teaching methodologies and content delivery.
 * README: This file!
 * .gitignore: Files to exclude from this folder, specified by the Technical Facilitator
