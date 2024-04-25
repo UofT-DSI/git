@@ -72,10 +72,15 @@ Author: curtissfnorman <151059094+curtissfnorman@users.noreply.github.com>
 :
 ### Task 2
 1. Create a new public repository on GitHub
-2. Add your GitHub repository as a remote for your local `githomework1` repository
+https://github.com/Ygong63/githomework1
+   
+3. Add your GitHub repository as a remote for your local `githomework1` repository
     * `git remote add origin <url>`
-3. Push your local `githomework1` repository to GitHub
-4. Include your repository URL in your submission
+  
+git clone https://github.com/Ygong63/githomework1
+
+4. Push your local `githomework1` repository to GitHub
+5. Include your repository URL in your submission
 
 ### Task 3
 1. Create a new branch called `playing-with-bash`
