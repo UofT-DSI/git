@@ -84,10 +84,14 @@ git clone https://github.com/Ygong63/githomework1
 
 ### Task 3
 1. Create a new branch called `playing-with-bash`
-2. Create 5 empty files with the names up to you
-3. Use `echo` into the 5 empty files a few sentences about anything
-4. Stage, commit and push your work on GitHub
-5. Open up a pull request
+git branch -c playing-with-bash
+
+3. Create 5 empty files with the names up to you
+touch 1 2 3 4 5 
+5. Use `echo` into the 5 empty files a few sentences about anything
+echo 
+7. Stage, commit and push your work on GitHub
+8. Open up a pull request
 
 ### Submission
 
