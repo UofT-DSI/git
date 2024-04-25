@@ -1,0 +1,1 @@
+echo 'DSI students like git'
