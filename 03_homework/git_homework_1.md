@@ -12,7 +12,7 @@
 8. Show the commit history
     * `git log`
 9. 📸 Take a screenshot of your terminal output
-(screenshot taken and will be uploaded)   
+(screenshot taken and will be uploaded)    
 
 ### Task 2
 1. Create a new public repository on GitHub
