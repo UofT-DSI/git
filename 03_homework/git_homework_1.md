@@ -12,36 +12,18 @@ git init
 5. Using your choice of text editor, create a README.md file.
 touch README.md
 code README.md
-
+Hello world
 7. Using the git command line, add this file to staging, then commit the file to your repository with a suitable commit message.
     * `git add <filename>` then `git commit`
+
 git add README.md
-$ git status
-On branch main
-Your branch is ahead of 'origin/main' by 1 commit.   
-  (use "git push" to publish your local commits)     
+git commit README.md
 
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in 
-working directory)
-        modified:   README.md
-
-no changes added to commit (use "git add" and/or "git commit -a")
-(base) 
-      
 8. Write a suitable commit message and finalize your commit
 Create a new README file
-$ git commit -m "this is my commit msg "
-On branch main
-Your branch is ahead of 'origin/main' by 1 commit.   
-  (use "git push" to publish your local commits)     
 
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in 
-working directory)
-        modified:   README.md
+git commit -m "this is my commit msg "
+
 
 no changes added to commit (use "git add" and/or "git commit -a")
 (base) 
@@ -80,18 +62,31 @@ https://github.com/Ygong63/githomework1
 git clone https://github.com/Ygong63/githomework1
 
 4. Push your local `githomework1` repository to GitHub
-5. Include your repository URL in your submission
+
+git push githomework1
+
+6. Include your repository URL in your submission
 
 ### Task 3
 1. Create a new branch called `playing-with-bash`
 git branch -c playing-with-bash
 
 3. Create 5 empty files with the names up to you
-touch 1 2 3 4 5 
+touch file1.txt file2.txt file3.txt file4.txt file5.txt
+
 5. Use `echo` into the 5 empty files a few sentences about anything
-echo 
+echo "ers" > file1.txt
+echo "Hfsdf" > file2.txt
+echo "dsf" > file3.txt
+echo "dfse" > file4.txt
+echo "dfefsdgr" > file5.txt
+
 7. Stage, commit and push your work on GitHub
-8. Open up a pull request
+git add .
+git commit -m "Added content to 5 files"
+git push origin playing-with-bash
+
+9. Open up a pull request
 
 ### Submission
 
