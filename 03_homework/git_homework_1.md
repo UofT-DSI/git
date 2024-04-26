@@ -87,6 +87,9 @@ git commit -m "Added content to 5 files"
 git push origin playing-with-bash
 
 9. Open up a pull request
+git remote add origin https://github.com/Ygong63/githomework1.git
+git branch -M main
+git push -u origin main
 
 ### Submission
 
