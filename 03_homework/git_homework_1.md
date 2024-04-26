@@ -8,10 +8,11 @@
 4. Using the git command line, add this file to staging, then commit the file to your repository with a suitable commit message.
     * `git add <filename>` then `git commit`
 5. Write a suitable commit message and finalize your commit
-6. 📸 Take a screenshot of your terminal output
+6. 📸 Take a screenshot of your terminal output 
 8. Show the commit history
     * `git log`
 9. 📸 Take a screenshot of your terminal output
+    
 
 ### Task 2
 1. Create a new public repository on GitHub
