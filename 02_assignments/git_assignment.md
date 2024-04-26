@@ -34,8 +34,8 @@ In this assignment, you will be learning more about `git` and `GitHub` by workin
 Feel free to at any point (recommended after answering every 2 questions) to stage, commit and push your work to GitHub. It is a great way to practice using `git`!
 
 1. When you are done, please stage, commit your changes, and push it to GitHub.
-2. Open up a pull request and add the Learning Support staff as a reviewer. You may need to add them to your repository.
-3. Write down on your pull request what you learned from this assignment. ([Guidelines for Pull Request Descriptions](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions))
+2. Open up a pull request.
+3. Write down in your pull request what you learned from this assignment. ([Guidelines for Pull Request Descriptions](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions))
 
 ## Criteria
 
