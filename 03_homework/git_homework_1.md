@@ -19,6 +19,7 @@
     * `git remote add origin <url>`
 3. Push your local `githomework1` repository to GitHub
 4. Include your repository URL in your submission
+   https://github.com/movcha/githomework1_r
 
 ### Task 3
 1. Create a new branch called `playing-with-bash`
