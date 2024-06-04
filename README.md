@@ -31,7 +31,7 @@ By the end of the module, participants will be able to:
 Participants should review the [Assignment Submission Guide](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md) for instructions on how to complete assignments in this module.
 
 
-1. [Git Assignment](https://github.com/UofT-DSI/git/blob/main/02_assignments/git_assignment.md)
+1. [Git Assignment](./02_activities/assignments/git_assignment.md)
 
 
 ## Contacts
@@ -95,20 +95,25 @@ Feel free to use the following as resources:
 
 ## Folder Structure
 
-```markdown
+```
 .
-├── 01_slides
-├── 02_assignments
-├── 03_homework
-├── 04_instructional_team
+├── .github
+├── 01_materials
+├── 02_activities
+├── 03_instructional_team
+├── 04_cohort_three
+├── .gitignore
 ├── LICENSE
 ├── README.md
 └── steps_to_ask_for_help.png
 ```
 
-* **slides:** Module slides as PDF or PPTX files.
-* **homework:** Homework to practice concepts covered in class.
-* **assignments:** Assignments.
-* **instructors:** This folder provides guidance for Technical Facilitators and the Learning Support team on teaching methodologies and content delivery.
-* README: This file!
-* .gitignore: Files to exclude from this folder, specified by the Technical Facilitator
+* **.github**: Contains issue templates and pull request templates for the repository.
+* **materials**: Module slides and interactive notebooks (.ipynb files) used during learning sessions.
+* **activities**: Contains graded assignments, exercises, and homework to practice concepts covered in the learning module.
+* **instructional_team**: Resources for the instructional team.
+* **cohort_three**: Additional materials and resources for cohort three.
+* **.gitignore**: Files to exclude from this folder, specified by the Technical Facilitator
+* **LICENSE**: The license for this repository.
+* **README**: This file.
+* **steps_to_ask_for_help.png**: Guide on how to ask for help.
