@@ -18,9 +18,9 @@ In this assignment, you will be learning more about `git` and `GitHub` by workin
     
     > b. What is a _pull request_?
 
-    > c. How do I open up a _pull request_?
+    > c. Describe the steps to open a _pull request_?
     
-    > d. Give me a step by step guide on how to add someone to your repository.
+    > d. Describe the steps to add a collaborator to a repository (share write permissions)
 
     > e. What is the difference between `git` and `GitHub`?
 
@@ -50,7 +50,7 @@ Feel free to at any point (recommended after answering every 2 questions) to sta
 🚨 **Please review our [Assignment Submission Guide](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md)** 🚨 for detailed instructions on how to format, branch, and submit your work. Following these guidelines is crucial for your submissions to be evaluated correctly.
 
 ### Submission Parameters:
-* Submission Due Date: `11:59 PM - 28/04/2024`
+* Submission Due Date: `2024-08-25 - 23:59`
 * The branch name for your repo should be: `assignment`
 * What to submit for this assignment:
     * The mentioned markdown file above (README.md) should be populated with what we have asked for and should be the only change in your pull request.

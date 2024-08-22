@@ -1,6 +1,9 @@
 ---
 marp: true
-theme: dsi-certificates-theme
+style: |
+    section {
+        font-family: Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+    }
 _class: invert
 paginate: true
 ---
@@ -13,6 +16,8 @@ $ echo "Data Sciences Institute"
 
 ---
 Prerequisites:
+- Git version ≥2.39
+- Git Credential Manager
 - GitHub account
 
 ---
@@ -31,43 +36,31 @@ References
 ## `Version Control`
 
 ---
-##### What is Version Control?
-Version control is a system that records changes to a file or a set of files over time so that we can recall a specific version later. We may already do this by copying files to another directory to save past versions.While it is simple, it lacks flexibility and complexity.
+#### What is Version Control?
+Version control is a system:
+* that records changes to a file or a set of files over time 
+* that enables recall a specific version
+
+We may already do this by copying files to another directory to save past versions. While it is simple, it lacks flexibility and complexity.
 
 ---
+#### Why version control?
 Version Control Systems (VCS) can do a number of things and can be applied on nearly any type of file on our computers:
-- revert files to a previous state
-- revert entire project to a previous state
-- compare changes over time
-- see who modified something last
-- who introduced an issue and when
-- recover lost files
+* revert files to a previous state
+* revert entire project to a previous state
+* compare changes over time
+* see who modified something last
+* who introduced an issue and when
+* recover lost files
 
 ---
-##### Local Version Control Systems
-Local VCSs were developed to keep track of changes to our files by putting them in a version database.
+#### Why specialized version control for software teams?
+* Robust software is documented as it is written
+    * Log changes and reasoning for why changes are made
+* Working in teams requires code-specific version control
+    * Changing one part of a code project can affect behaviour in seemingly unrelated features
+    * In-progress state of one component can render the entire program temporarily unusable (e.g. syntax error)
 
-![bg right contain](./pics/02_lvc.png)
-
----
-##### Centralized Version Control Systems
-Centralized VCSs (CVCS) were developed to enable collaboration with developers on other systems. CVCSs have a single server that contains all the versioned files.
-
-![bg left contain](./pics/02_cvcs.png)
-
----
-CVCSs allow some level of transparency to others' work and give Administrators a level of control over what developers can and can't do.
-
-Unfortunately, a single server means that if it ever goes down, all collaboration halts for however long that lasts for. Additionally, if backups haven't been kept, work could easily be lost.
-
----
-##### Distributed Version Control Systems
-To handle the limitations of LVCSs and CVCSs, Distributed VCSs were created. This includes Git, Mercurial and Bazaar. 
-
-Collaborators mirror the entire repsoitory, therefore if a server dies, any one of the collaborators' repositories can be copied back to the server to restore it.
-
----
-![w:560 center](./pics/02_dvcs.png)
 
 ---
 
@@ -80,22 +73,25 @@ Questions?
 ## `Git`
 
 ---
-##### Git Basics
-Git thinks of data in a very different way than other VCSs. Instead of storing a set of files and the changes over time, Git thinks of its data more like a set of snapshots of a mini file system. 
+### Git Basics
+Git is the most common VCS in modern coding teams. 
 
-If files have not changed, Git does not store the file again, it links to the previous identical file already stored.
+##### Git is efficient with storage
+* Git stores snapshots of files in your project directory
+* If files have not changed, Git does not store the file again, it links to the previous identical file already stored.
 
 ---
-![w:1100 center](./pics/02_git_data.png)
+
+![auto center](./pics/02_git_data.png)
 
 ---
-##### Local Operations
+##### Git can operate locally
 Most operations on Git only need local files and resources to operate. Git also keeps the entire history of our projects on our local disks meaning we can see changes made months ago without a remote server.
 
 We also don't need to be connected to the server to get work done, rather we only need to be connected when we want to upload our work.
 
 ---
-##### Benefits
+##### Git assures integrity
 Git uses a check-summing mechanism called *SHA-1 hash* which is calculated based on the contents of a file or directory structure in Git. It looks somehting like this:
 ```
 24b9da6552252987aa493b52f8696cd6d3b00393

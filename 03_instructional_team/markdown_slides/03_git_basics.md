@@ -1,6 +1,9 @@
 ---
 marp: true
-theme: dsi-certificates-theme
+style: |
+    section {
+        font-family: Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+    }
 _class: invert
 paginate: true
 ---
@@ -327,12 +330,17 @@ $ git remote show origin
 Here we can see the URL that we're fetching and pulling from, our remote branches, and configurations for git push (to the main branch or another).
 
 ---
-To send and retrieve work between our local and remote repositories, we have to authenticate a personal access token:
+To send and retrieve work between our local and remote repositories, we use Git Credential Manager.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![w:350 left](./pics/03_settings.png) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![w:340 right](./pics/03_developer.png)
+```console
+$ git credential-manager github login
+```
 
----
-![w:1150 center](./pics/03_personal_auth.png)
+To check our login status
+
+```console
+$ git credential-manager github list
+```
 
 ---
 
