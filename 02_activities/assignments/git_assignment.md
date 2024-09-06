@@ -15,21 +15,41 @@ In this assignment, you will be learning more about `git` and `GitHub` by workin
 6. In your `README.md`, answer the following questions:
     
     > a. What is an _issue_?
-    
+   
+     An issue is a way to track tasks, enhancements, bugs, or questions related to a project in a repository. 
     > b. What is a _pull request_?
-
-    > c. Describe the steps to open a _pull request_?
     
+     A pull request (PR) is a request to merge changes from one branch of a repository into another (often from a feature branch into the main branch). It allows developers to review, discuss, and approve changes before they are integrated into the main codebase.
+    > c. Describe the steps to open a _pull request_?
+     
+     Create a branch: Make a new branch from the main branch or another branch where you want to apply changes.
+     Make changes: Work on the code, and commit your changes to your branch.
+     Push the branch: Push the branch with your changes to the remote repository on GitHub.
+     Open a pull request: Go to the repository on GitHub, navigate to the Pull Requests tab, and click "New Pull Request".
+     Compare changes: Select the branch you want to merge into the base branch (e.g., main), and submit the pull request for review.
+     Review and merge: Collaborators can review the changes and, once approved, the pull request can be merged into the target branch.
+
     > d. Describe the steps to add a collaborator to a repository (share write permissions)
 
+     Go to the repository: Open the repository on GitHub.
+     Access settings: Click on the "Settings" tab.
+     Manage access: In the left sidebar, select "Collaborators and Teams".
+     Invite collaborator: Click "Add people", search for the collaborator’s GitHub username, and invite them.
+     Set permissions: After the invitation is accepted, you can assign different levels of access (e.g., write or admin permissions).
+
     > e. What is the difference between `git` and `GitHub`?
+     
+     Git: A version control system that helps manage and track changes to code locally. It operates from the command line, and is used to clone, commit, push, pull, and manage code versions.
+     GitHub: A cloud-based hosting service for Git repositories. It adds collaboration features like pull requests, issues, and team management on top of Git, and allows for online storage of Git repositories.
 
     > f. What does `git diff` do?
+     The git diff command shows the changes between two commits, between the working directory and the staging area, or between the working directory and the most recent commit. It helps developers see what has changed in their code.
 
     > g. What is the `main` branch?
-
+      The main branch is the default, primary branch in a Git repository where the production-ready code typically resides. It is the branch that most collaborators pull from and push changes to after completing work in feature branches.
+      
     > h. Besides our initial commit if it is a new repository, should we directly push our changes directly into the `main` branch?
-    
+     No, you should avoid pushing changes directly to the main branch unless it's a very small project or the change is minor. It's better to create a new branch for each feature or bug fix, make changes in that branch, and then open a pull request to merge those changes into the main branch after they’ve been reviewed. This ensures better code quality and reduces the risk of introducing errors.
 
 Feel free to at any point (recommended after answering every 2 questions) to stage, commit and push your work to GitHub. It is a great way to practice using `git`!
 
