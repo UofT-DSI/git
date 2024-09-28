@@ -1,66 +1,54 @@
 # Git Assignment
 
-In this assignment, you will be learning more about `git` and `GitHub` by working through the questions. As you answer the questions, you will practice your git skills by staging, committing and pushing your answers (changes) along the way.
-
-1. Create a new public repository called `git_assignment` without a `README.md`
-2. Clone it to your local computer
-3. Create a `README.md` and paste the following code inside:
-
-    ```markdown
-    # Git Assignment - <Your GitHub Username>
-    ```
-
-4. Stage, commit and push the repo
-5. Create a new branch called `assignment`
-6. In your `README.md`, answer the following questions:
     
-    > a. What is an _issue_?
+     a. What is an _issue_?
+
+    An issue in GitHub is a way to track tasks, enhancements, bugs, or questions related to a project. It is used for project management and communication between collaborators. Users can open, discuss, and resolve issues within a repository.
+    To creat issue If we found a bug, or a new feature Idea. We have Go to the GitHub repository of the project and click the Issues tab. In there click the New Issue button and describe the bug or feature and Submit voila! and we  have created a new Issue, also we have a green square in your GitHub heatmap.
     
     > b. What is a _pull request_?
+    
+    A pull request, often abbreviated as PR, serves as a proposal to merge changes made in one branch of a repository into another, typically from a feature branch into the main branch. Pull requests are essential for facilitating code reviews, encouraging collaboration, and maintaining a clean, well-documented codebase.
+    Feature Additions: A developer adds a new feature, like password reset, and creates a pull request to merge it into the main branch after approval.
+    Bug Fixes: A separate branch is made to fix a discovered bug, and a pull request is created for team review and integration.
+    Code Refactoring: Developers refactor code for better performance or readability and submit a pull request for team approval.
 
     > c. Describe the steps to open a _pull request_?
+
+    Create a branch: First, create a new branch in the repository for the feature or fix you're working on.
+    Make changes: Modify files, commit the changes, and push them to your branch.
+    Open the pull request:
+    Go to the repository on GitHub.
+    Click on the "Pull Requests" tab.
+    Click "New Pull Request."
+    Choose the branches (your feature branch and the base branch, usually main).
+    Write a descriptive title and description for the pull request.
+    Submit the pull request: Once ready, click "Create Pull Request." Collaborators can now review the changes.
     
     > d. Describe the steps to add a collaborator to a repository (share write permissions)
 
+    We have to go to your repository on GitHub.
+    Click on the "Settings" tab.
+    In the left sidebar, click on "Collaborators."
+    Under the "Collaborators" section, type the username or email of the person you want to add.
+    Click "Add Collaborator."
+    The invited user will receive an email invitation, which they must accept to gain write access.
+
     > e. What is the difference between `git` and `GitHub`?
+    Git is a version control system used to track changes in source code during software development. It allows multiple developers to work on a project simultaneously, keeping track of changes and managing code versions.
+    GitHub is a cloud-based hosting service for Git repositories. It provides a web interface to manage Git repositories, collaborate with other developers, and use features like pull requests, issues, and more.
 
     > f. What does `git diff` do?
+    The git diff command shows the changes between two versions of files. It compares what is in your working directory with the last commit, showing what has been added, removed, or modified. This is useful for reviewing changes before committing.
+
 
     > g. What is the `main` branch?
+    The main branch (previously called master branch) is the default branch in a Git repository. It is typically where the stable, production-ready version of the code resides. Changes are usually merged into the main branch after they are reviewed and tested.
 
     > h. Besides our initial commit if it is a new repository, should we directly push our changes directly into the `main` branch?
     
+    
 
-Feel free to at any point (recommended after answering every 2 questions) to stage, commit and push your work to GitHub. It is a great way to practice using `git`!
+    done
 
-1. When you are done, please stage, commit your changes, and push it to GitHub.
-2. Open up a pull request.
-3. Write down in your pull request what you learned from this assignment. ([Guidelines for Pull Request Descriptions](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions))
 
-## Criteria
-
-|Criteria|Complete|Incomplete|
-|---|---|---|
-|Branching|A new branch was created and used|A new branch was not created and used.|
-|Pull Request|A pull request with the answers to the questions was made.|No pull request or answers were made.|
-|Explanation Quality|Each answer per question is clear and concise.|Each answer per question is inconclusive.|
-
-## Submission Information
-
-🚨 **Please review our [Assignment Submission Guide](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md)** 🚨 for detailed instructions on how to format, branch, and submit your work. Following these guidelines is crucial for your submissions to be evaluated correctly.
-
-### Submission Parameters:
-* Submission Due Date: `2024-08-25 - 23:59`
-* The branch name for your repo should be: `assignment`
-* What to submit for this assignment:
-    * The mentioned markdown file above (README.md) should be populated with what we have asked for and should be the only change in your pull request.
-* What the pull request link should look like for this assignment: `https://github.com/<your_github_username>/git_assignment/pull/<pr_id>`
-    * Open a private window in your browser. Copy and paste the link to your pull request into the address bar. Make sure you can see your pull request properly. This helps the technical facilitator and learning support staff review your submission easily.
-
-Checklist:
-- [ ] Create a branch called `assignment`.
-- [ ] Ensure that the repository is public.
-- [ ] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
-- [ ] Verify that the link is accessible in a private browser window.
-
-If you encounter any difficulties or have questions, please don't hesitate to reach out to our team via our Slack at `#cohort-3-help`. Our Technical Facilitators and Learning Support staff are here to help you navigate any challenges.
