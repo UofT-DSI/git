@@ -48,7 +48,7 @@ Assignments are typically due on the Sunday following the module's live learning
 
 * Technical Facilitator:   
   * **Abhishek Moturu**
-    abhishek.moturu@utoronto.ca
+    abhishek.moturu@mail.utoronto.ca
 
 * Learning Support Staff: 
   * **Keli Chiu**
@@ -68,8 +68,8 @@ Participants are encouraged to engage actively during the learning module. They 
 The schedule is tentative and may be modified as needed. Learners will be notified of schedule changes.
 
 ||Jan 7|Jan 9|Jan 10|Jan 14|
-|---|---|---|---|---|---|
-|Week 1|Live Learning Session 1 ([Shell](https://github.com/UofT-DSI/shell))|Live Learning Session 2 (Shell)|Work Period|Live Learning Session 3 (Git & Github)|
+|---|---|---|---|---|
+|Week 1|Live Learning Session 1 ([Shell](https://github.com/UofT-DSI/shell))|Live Learning Session 2 (Git & Github)|Work Period|Live Learning Session 3 (Git & Github)|
  
 ## Requirements
 
