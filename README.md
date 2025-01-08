@@ -48,7 +48,7 @@ Assignments are typically due on the Sunday following the module's live learning
 
 * Technical Facilitator:   
   * **Abhishek Moturu**
-    abhishek.moturu@mail.utoronto.ca
+  abhishek.moturu@mail.utoronto.ca
 
 * Learning Support Staff: 
   * **Keli Chiu**
