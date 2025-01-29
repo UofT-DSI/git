@@ -94,7 +94,7 @@ Feel free to use the following as resources:
 - [Git explained in 100 seconds](https://www.youtube.com/watch?v=hwP7WQkmECE)
 - [Git vs GitHub: What's the difference?](https://www.youtube.com/watch?v=wpISo9TNjfU)
 
-### How to get help
+### How to Get Help
 #### 1. Gather information about your problem
 - Copy and paste your error message
 - Copy and paste the code that caused the error, and the last few commands leading up to the error
