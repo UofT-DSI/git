@@ -29,17 +29,13 @@ By the end of the module, participants will be able to:
 ## Activities
 This module has two types of activities.
 1. Assignments are mandatory, and form part of your evaluation.
-1. Homework is not assessed, but are provided to you for extra practice. We encourage you to check each other's homework solutions during Work Periods or ask a Learning Support!
+1. Practice problems are not assessed, but are provided to you for extra practice. We encourage you to check each other's solutions during Work Periods or ask a Learning Support!
 
 ### Assignments
-Participants should review the [Assignment Submission Guide](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md) for instructions on how to complete assignments in this module.
+The assignment for the Git module is combined with the Shell module. Please find it at https://github.com/UofT-DSI/shell/tree/main/02_activities/assignments
 
-Assignments are typically due on the Sunday following the module's live learning session.
-
-1. [Git Assignment](./02_activities/assignments/git_assignment.md)
-
-### Homework
-1. [Git Homework](./02_activities/homework/git_homework_1.md)
+### Practice problems
+1. [Git Practice Problems](./02_activities/practice/)
 
 
 ## Contacts
@@ -59,7 +55,7 @@ Assignments are typically due on the Sunday following the module's live learning
  
 ##  Delivery of the Learning Module
 
-This module will include live learning sessions and optional, asynchronous work periods. During live learning sessions, the Technical Facilitator will introduce and explain key concepts and demonstrate core skills. Learning is facilitated during this time. Before and after each live learning session, the instructional team will be available for questions related to the core concepts of the module. Optional work periods are to be used to seek help from peers, the Learning Support team, and to work through the homework and assignments in the learning module, with access to live help. Content is not facilitated, but rather this time should be driven by participants. We encourage participants to come to these work periods with questions and problems to work through. 
+This module will include live learning sessions and optional, asynchronous work periods. During live learning sessions, the Technical Facilitator will introduce and explain key concepts and demonstrate core skills. Learning is facilitated during this time. Before and after each live learning session, the instructional team will be available for questions related to the core concepts of the module. Optional work periods are to be used to seek help from peers, the Learning Support team, and to work through the practice problems and assignments in the learning module, with access to live help. Content is not facilitated, but rather this time should be driven by participants. We encourage participants to come to these work periods with questions and problems to work through. 
  
 Participants are encouraged to engage actively during the learning module. They key to developing the core skills in each learning module is through practice. The more participants engage in coding along with the instructional team, and applying the skills in each module, the more likely it is that these skills will solidify. 
 
@@ -139,7 +135,7 @@ Feel free to use the following as resources:
 
 * **.github**: Contains issue templates and pull request templates for the repository.
 * **materials**: Module slides and interactive notebooks (.ipynb files) used during learning sessions.
-* **activities**: Contains graded assignments, exercises, and homework to practice concepts covered in the learning module.
+* **activities**: Contains graded assignments and ungraded practice problems
 * **instructional_team**: Resources for the instructional team.
 * **this_cohort**: Additional materials and resources for this cohort.
 * **.gitignore**: Files to exclude from this folder, specified by the Technical Facilitator
