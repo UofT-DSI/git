@@ -1,5 +1,7 @@
 # Git Basics
 
+**Note**: Homework problems are not assessed and are provided for your own personal practice. Feel free to discuss these with your peers and learning support during work sessions!
+
 ## Tasks
 ### Task 1
 1. Create a new directory named `githomework1`.

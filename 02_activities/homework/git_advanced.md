@@ -1,5 +1,7 @@
 # Git Advanced Homework
 
+**Note**: Homework problems are not assessed and are provided for your own personal practice. Feel free to discuss these with your peers and learning support during work sessions!
+
 ## Tasks
 The `dtxe/DSI_git_assignment` repository contains a short Python script that 
 loads the TTC Bus Delay dataset, computes the average delay by route, then 
