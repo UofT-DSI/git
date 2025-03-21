@@ -291,7 +291,8 @@ problems:
     description: |
       You're working on the DSI Shell & Git assignment.
       1. You've cloned the repository from GitHub to your local machine.
-      1. You've made some changes to the code and committed
+      1. You've made some changes to the code
+      1. You've staged then committed your changes
       1. Now you want to push your changes to the remote repository on GitHub.
 
       But you've realized that *instead of cloning your own fork of the repository, you accidentally cloned the original repository.*
@@ -314,8 +315,11 @@ problems:
       2. `git remote add origin [your fork URL]` - This adds your fork as the new `origin`.
       3. `git push origin main` - This pushes your changes to your fork on GitHub.
 
+      You may also need to run:
+      - `git pull origin main` - This fetches the latest changes from your fork and merges them into your local branch. It may not be necessary if there were no changes in your fork since you cloned it.
+
       The other commands are either not necessary or incorrect for this task.
-      - `git fetch origin` and `git pull origin main` are not needed because you already have the latest changes from the original repository.
+      - `git fetch origin` is not needed because `git pull` already fetches changes.
       - `git reclone [your fork URL]` is not a valid command.
       - `git remote reset origin` is not a valid command.
-      - `git clone [your fork URL]` would create a new clone of your fork, which is not necessary if you already have a local copy.
+      - `git clone [your fork URL]` would create a new clone of your fork. Although you could do this, then make all your changes again, it is a very inefficient and error-prone way to solve the problem.
