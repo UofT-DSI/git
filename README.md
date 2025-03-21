@@ -11,7 +11,7 @@
 * [Resources](#resources)
   + [Cheat sheet](#cheatsheet)
   + [Videos](#videos)
-  + [How to get help](#how-to-get-help)
+  + [How to Get Help](#how-to-get-help)
 * [Folder Structure](#folder-structure)
 
 ## Description
@@ -44,18 +44,17 @@ Assignments are typically due on the Sunday following the module's live learning
 
 ## Contacts
 
-**Questions can be submitted to the _#cohort-4-help_ channel on Slack**
+**Questions can be submitted to the _#dc-help_ channel on Slack**
 
 * Technical Facilitator:   
-  * **Simeon Wong** (he/him)  
-    simeonm.wong@utoronto.ca
+  * **Abhishek Moturu**
+  abhishek.moturu@mail.utoronto.ca
 
 * Learning Support Staff: 
-  * **Emma Teng**  (she/her)
-  e.teng@mail.utoronto.ca
-  * **Sidra Bushra** (she/her)
-  contact.sidra.bushra@gmail.com
-  * **Pedram Asli**
+  * **Keli Chiu**
+  keli.chiu.kc@gmail.com
+  * **Ananya Jha**
+  ananya.jha@mail.utoronto.ca
 
  
 ##  Delivery of the Learning Module
@@ -68,9 +67,9 @@ Participants are encouraged to engage actively during the learning module. They 
 
 The schedule is tentative and may be modified as needed. Learners will be notified of schedule changes.
 
-||Day 1|Day 2|Day 3|Day 4|Day 5|
-|---|---|---|---|---|---|
-|Week 1|Live Learning Session 1 ([Shell](https://github.com/UofT-DSI/shell))|Live Learning Session 2 (Shell)|Live Learning Session 3 (Git & Github)|Work Period 1|Work Period 2|
+||Jan 7|Jan 9|Jan 10|Jan 14|
+|---|---|---|---|---|
+|Week 1|Live Learning Session 1 ([Shell](https://github.com/UofT-DSI/shell))|Live Learning Session 2 (Git & Github)|Work Period|Live Learning Session 3 (Git & Github)|
  
 ## Requirements
 
@@ -95,7 +94,7 @@ Feel free to use the following as resources:
 - [Git explained in 100 seconds](https://www.youtube.com/watch?v=hwP7WQkmECE)
 - [Git vs GitHub: What's the difference?](https://www.youtube.com/watch?v=wpISo9TNjfU)
 
-### How to get help
+### How to Get Help
 #### 1. Gather information about your problem
 - Copy and paste your error message
 - Copy and paste the code that caused the error, and the last few commands leading up to the error
@@ -124,11 +123,6 @@ Feel free to use the following as resources:
 - [The XY problem: A question pitfall that won't get useful answers](https://xyproblem.info/)
 - [How to create a minimal reproducible example](https://stackoverflow.com/help/minimal-reproducible-example)
 
-#### Getting help: A summary
-<img src="steps_to_ask_for_help.png" width="700">
-
-<hr>
-
 ## Folder Structure
 
 ```
@@ -140,8 +134,7 @@ Feel free to use the following as resources:
 ├── 04_this_cohort
 ├── .gitignore
 ├── LICENSE
-├── README.md
-└── steps_to_ask_for_help.png
+└── README.md
 ```
 
 * **.github**: Contains issue templates and pull request templates for the repository.
@@ -152,4 +145,4 @@ Feel free to use the following as resources:
 * **.gitignore**: Files to exclude from this folder, specified by the Technical Facilitator
 * **LICENSE**: The license for this repository.
 * **README**: This file.
-* **steps_to_ask_for_help.png**: Guide on how to ask for help.
+
