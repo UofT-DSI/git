@@ -27,7 +27,7 @@ problems:
       This is your terminal prompt:
       ```bash
       user@computer:~$ ls
-          Desktop  Documents  Downloads  Music  Pictures  Videos  my_project
+          Desktop/  Documents/  Downloads/  Music/  my_project/  Pictures/  Videos/
       user@computer:~$ 
       ```
       You might have made a change to a file in the `my_project` directory, but you're not sure.
