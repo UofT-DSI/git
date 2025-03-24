@@ -1,0 +1,325 @@
+title: Git Basics Practice Problems
+problems:
+  - title: Git commands
+    description: |
+      You're starting a new project called `my_project` and would like your code to be version controlled.
+      From your home directory, which commands will create a new directory called `my_project` and initialize a new Git repository?
+    questiontype: parsons
+    options:
+      - "`mkdir my_project`"
+      - "`cd my_project`"
+      - "`git init`"
+      - "`git clone`"
+      - "`git create`"
+      - "`git add my_project`"
+      - "`git mkdir my_project`"
+    correct_options: [0,1,2]
+    solution: |
+      To create a new directory and initialize a Git repository, you would use the following commands:
+      1. `mkdir my_project` - This creates a new directory called `my_project`.
+      2. `cd my_project` - This changes the current working directory to `my_project`.
+      3. `git init` - This initializes a new Git repository in the current directory.  
+
+      The other commands are either incorrect or not necessary for this task.
+
+  - title: Git commands
+    description: |
+      This is your terminal prompt:
+      ```bash
+      user@computer:~$ ls
+          Desktop/  Documents/  Downloads/  Music/  my_project/  Pictures/  Videos/
+      user@computer:~$ 
+      ```
+      You might have made a change to a file in the `my_project` directory, but you're not sure.
+      How would you check if your working directory is clean? (eg. no uncommitted changes)
+    questiontype: parsons
+    options:
+      - "`cd my_project`"
+      - "`git status`"
+      - "`git log`"
+      - "`git diff`"
+      - "`git commit -am 'commit all changes`"
+      - "`git push`"
+      - "`git pull`"
+      - "`git checkout`"
+      - "`git add -A`"
+    correct_options: [0,1]
+    solution: |
+      To check if your working directory is clean, you would use the following commands:
+      1. `cd my_project` - This changes the current working directory to `my_project`.
+      2. `git status` - This shows the status of the working directory and staging area, including any uncommitted changes.
+
+      The other commands are either not relevant or not necessary for this task.
+
+  - title: Git commands
+    description: |
+      You've just started a new project and initialized a Git repository.
+      This is your current terminal prompt:
+      ```bash
+      user@computer:~/my_project$ ls
+      user@computer:~/my_project$ 
+      ```
+      How would you create a new file called `README.md`, add it to the staging area, and commit it?
+    questiontype: parsons
+    options:
+      - "`touch README.md`"
+      - "`git add README.md`"
+      - "`git commit -m 'Add README file'`"
+      - "`git push`"
+      - "`git init`"
+      - "`git status`"
+      - "`git log`"
+      - "`git clone`"
+      - "`git pull`"
+      - "`git add and commit README.md`"
+      - "`git create README.md`"
+      - "`git commit -am 'Add README file'`"
+    correct_options: [0,1,2]
+    solution: |
+      To create a new file, add it to the staging area, and commit it, you would use the following commands:
+      1. `touch README.md` - This creates a new file called `README.md`.
+      2. `git add README.md` - This adds the file to the staging area.
+      3. `git commit -m 'Add README file'` - This commits the changes with a message.
+
+      Using `git commit -am 'Add README file'` would not work in this case because `README.md` is a
+      new file that has never been added to the repository before. 
+      The `-a` flag only stages files that are already being tracked by Git. (eg. modified files)
+
+  - title: Git commands
+    description: |
+      You have a file called `script.py` in your Git repository.
+      You made some changes to it and want to see what those changes are before committing.
+      Which command would you use?
+    questiontype: parsons
+    options:
+      - "`git status`"
+      - "`git diff script.py`"
+      - "`git log`"
+      - "`git commit -m 'Update script.py'`"
+      - "`git add script.py`"
+      - "`git push`"
+      - "`git pull`"
+      - "`git checkout script.py`"
+      - "`cd script.py`"
+    correct_options: [1]
+    solution: |
+      To see the changes made to `script.py`, you would use the command:
+      `git diff script.py` - This shows the differences between the working directory and the staging area for the specified file.
+
+  - title: Git and GitHub
+    description: |
+      What is the difference between git and GitHub?
+    questiontype: freeform
+    solution: |
+      Git is a version control system that allows you to track changes in your code and collaborate with others.
+      GitHub is a web-based platform that uses Git for version control and provides additional features like issue tracking, pull requests, and project management.
+      In short, Git is the tool, while GitHub is a service that hosts Git repositories.
+
+  - title: Git and GitHub
+    description: |
+      Besides the initial commit, should we push our changes directly into the `main` branch?
+    questiontype: freeform
+    solution: |
+      It depends.
+
+      For **smaller projects**, it might be acceptable to push changes directly to the `main` branch.
+      This can be convenient for quick iterations and personal projects where you are the only developer.
+
+      However, for **larger projects** or when working in a team, it's generally recommended to create a new branch for each feature or bug fix.
+      This allows for better organization and collaboration, as well as easier code reviews.
+      By using branches, you can work on multiple features or fixes simultaneously without affecting the main codebase.
+      Once your changes are complete and tested, you can merge them back into the `main` branch through a pull request.
+      This helps maintain a clean and organized project history.
+
+  - title: Command line text editors
+    description: |
+      You've just installed Git on a new computer and are excited to keep working on your project in Git.
+      You've made some changes, added them to staging with `git add -A`, then went to commit your changes with 
+      `git commit`. When you press Enter, you see this on screen.
+
+      ```
+
+      # Please enter the commit message for your changes. Lines starting
+      # with '#' will be ignored, and an empty message aborts the commit.
+      #
+      # On branch main
+      # Your branch is ahead of 'origin/main' by 1 commit.
+      #   (use "git push" to publish your local commits)
+      #
+      # Changes to be committed:
+      #       modified:	myfile.txt
+      #
+      ~
+      ~
+      ~
+      ~
+      ~
+      .git/COMMIT_EDITMSG [unix]
+      "~/myproject/.git/COMMIT_EDITMSG"
+      ```
+
+      Pressing keys on your keyboard doesn't seem to do anything.
+      What is going on? How do you get out of this screen?
+
+    questiontype: multiplechoice
+    options:
+      - "You are in a command line text editor called `vim`. To exit, press `Esc`, then type `:wq` and press Enter."
+      - "You are in a command line text editor called `vim`. To exit, press `Ctrl + Q`."
+      - "You are in a command line text editor called `vim`. To exit, press `Ctrl + X`, then press Esc."
+      - "You are in a command line text editor called `nano`. To exit, press `Ctrl + X`, then type `Y` to save changes."
+      - "You are in a command line text editor called `nano`. To exit, press `Ctrl + Q`."
+      - "You are in a command line text editor called `nano`. To exit, press `Esc`, then type `:wq` and press Enter."
+    correct_options: [0]
+    solution: |
+      You are in a command line text editor called `vim`. To exit, press `Esc`, then type `:wq` and press Enter.
+      This will save your changes and exit the editor. If you want to exit without saving, you can type `:q!` instead.
+      
+      You can tell that this is `vim` because of the `~` symbols, which indicate empty lines in `vim`, and the "~/myproject/.git/COMMIT_EDITMSG" file path at the bottom.
+
+  - title: Command line text editors
+    description: |
+      You've just installed Git on a new computer and are excited to keep working on your project in Git.
+      You've made some changes, added them to staging with `git add -A`, then went to commit your changes with 
+      `git commit`. When you press Enter, you see this on screen.
+
+      ```
+        GNU nano 8.3               COMMIT_EDITMSG
+      
+      # Please enter the commit message for your changes. Lines starting
+      # with '#' will be ignored, and an empty message aborts the commit.
+      #
+      # On branch main
+      # Your branch is ahead of 'origin/main' by 1 commit.
+      #   (use "git push" to publish your local commits)
+      #
+      # Changes to be committed:
+      #       modified:	myfile.txt
+      #
+         [ Read 148 lines (converted from DOS format) ]
+      ^G Help        ^O Write Out   ^F Where Is    ^K Cut         
+      ^X Exit        ^R Read File   ^\ Replace     ^U Paste
+      ```
+      Pressing keys on your keyboard types onto the screen.
+      What is going on? How do you get out of this screen?
+    questiontype: multiplechoice
+    options:
+      - "You are in a command line text editor called `vim`. To exit, press `Esc`, then type `:wq` and press Enter."
+      - "You are in a command line text editor called `vim`. To exit, press `Ctrl + Q`."
+      - "You are in a command line text editor called `vim`. To exit, press `Ctrl + X`, then press Esc."
+      - "You are in a command line text editor called `nano`. To exit, press `Ctrl + X`, then type `Y` to save changes."
+      - "You are in a command line text editor called `nano`. To exit, press `Ctrl + Q`."
+      - "You are in a command line text editor called `nano`. To exit, press `Esc`, then type `:wq` and press Enter."
+    correct_options: [3]
+    solution: |
+      You are in a command line text editor called `nano`. To exit, press `Ctrl + X`, then type `Y` to save changes.
+      These keyboard shortcuts are indicated at the bottom of the screen, where `^X` means `Ctrl + X`
+
+      This will save your changes and exit the editor. If you want to exit without saving, you can type `N` instead of `Y`.
+      
+      You can tell that this is `nano` because of the application name at the top (GNU nano 8.3) and the keyboard shortcuts listed at the bottom.
+
+  - title: Commit messages
+    description: |
+      Suppose you had a recipe for guacamole in a file called `guacamole.txt`.
+      ```
+      Guacamole ingredients:
+      - avocado
+      - lemon
+      - salt
+      ```
+
+      You change this file to the following:
+      ```
+      Guacamole ingredients:
+      - avocado
+      - lime
+      - salt
+      - cilantro
+      ```
+
+      What would be a good commit message for this change?
+
+    questiontype: multiplechoice
+    options:
+      - "Fixed a typo in guacamole.txt"
+      - "Updated guacamole recipe to use lime instead of lemon and added cilantro"
+      - "Added new ingredients to guacamole recipe"
+      - "Changed guacamole recipe"
+      - "Guacamole recipe update"
+      - "Guacamole modified to the traditional recipe"
+    correct_options: [5]
+    solution: |
+      A good commit message should be clear and descriptive, explaining what changes were made and why.
+      The best option here is:
+      "Guacamole modified to the traditional recipe"
+      
+      This message clearly states what was changed and why, making it easy for others (and yourself) to understand the purpose of the commit in the future.
+
+      - "Fixed a typo in guacamole.txt" is not accurate because there was no typo.
+      - "Updated guacamole recipe to use lime instead of lemon and added cilantro" duplicates the information in the `git diff` and does not explain why
+      - "Added new ingredients to guacamole recipe" is vague and doesn't specify what was changed.
+      - "Changed guacamole recipe" is too vague and doesn't provide enough information.
+      - "Guacamole recipe update" is also vague and doesn't explain what was changed.
+      
+  - title: Git commands
+    description: |
+      You're working on two features simultaneously in your Git repository: `feature1` and `feature2`.
+      `feature1` and `feature2` were branched off of `main` some time ago.
+      You don't remember if you've fixed a particular bug in `feature1` or `feature2` or `main`.
+
+      How would you check which branch your bugfix commit has been made in?
+
+    questiontype: multiplechoice
+    options:
+      - "`git log [branch name]` for each branch"
+      - "`git log` then `git checkout [branch]` for each branch"
+      - "`git diff main feature1 feature2`"
+      - "`git status [branch name]` for each branch"
+    correct_options: [0]
+    solution: |
+      The best way to check which branch your bugfix commit has been made in is to use:
+      "`git log [branch name]` for each branch"
+
+      This will show you the commit history for each branch, allowing you to see if the bugfix commit is present in that branch.
+      
+      The other options are not correct because:
+      - "`git log` then `git checkout [branch]` for each branch" runs the commands in the wrong order, and using `git checkout` would require checking out each branch, which is unnecessary.
+      - "`git diff`" shows differences between branches but does not show commit history, and `git diff main feature1 feature2` is not a valid command.
+      - "`git status [branch name]` for each branch" does not provide information about commit history.
+
+  - title: Git remotes
+    description: |
+      You're working on the DSI Shell & Git assignment.
+      1. You've cloned the repository from GitHub to your local machine.
+      1. You've made some changes to the code
+      1. You've staged then committed your changes
+      1. Now you want to push your changes to the remote repository on GitHub.
+
+      But you've realized that *instead of cloning your own fork of the repository, you accidentally cloned the original repository.*
+
+      How would you fix this and push your changes to your own fork of the repository?
+    questiontype: parsons
+    options:
+      - "`git remote add origin [your fork URL]`"
+      - "`git remote rename origin upstream`"
+      - "`git push origin main`"
+      - "`git clone [your fork URL]`"
+      - "`git fetch origin`"
+      - "`git pull origin main`"
+      - "`git remote reset origin`"
+      - "`git reclone [your fork URL]`"
+    correct_options: [1,0,2]
+    solution: |
+      To fix this and push your changes to your own fork of the repository, you would do the following:
+      1. `git remote rename origin upstream` - This renames the original repository to `upstream`.
+      2. `git remote add origin [your fork URL]` - This adds your fork as the new `origin`.
+      3. `git push origin main` - This pushes your changes to your fork on GitHub.
+
+      You may also need to run:
+      - `git pull origin main` - This fetches the latest changes from your fork and merges them into your local branch. It may not be necessary if there were no changes in your fork since you cloned it.
+
+      The other commands are either not necessary or incorrect for this task.
+      - `git fetch origin` is not needed because `git pull` already fetches changes.
+      - `git reclone [your fork URL]` is not a valid command.
+      - `git remote reset origin` is not a valid command.
+      - `git clone [your fork URL]` would create a new clone of your fork. Although you could do this, then make all your changes again, it is a very inefficient and error-prone way to solve the problem.
