@@ -3,7 +3,7 @@
 ## Contents
 * [Description](#description)
 * [Learning Outcomes](#learning-outcomes)
-* [Assignments](#assignments)
+* [Activities](#activities)
 * [Contacts](#contacts)
 * [Delivery of the Learning Module](#delivery-of-the-learning-module)
 * [Schedule](#schedule)
@@ -29,17 +29,19 @@ By the end of the module, participants will be able to:
 ## Activities
 This module has two types of activities.
 1. Assignments are mandatory, and form part of your evaluation.
-1. Homework is not assessed, but are provided to you for extra practice. We encourage you to check each other's homework solutions during Work Periods or ask a Learning Support!
+1. Practice problems are not assessed, but are provided to you for extra practice. We encourage you to attempt the practice problems and discuss solutions together during the work sessions or on the Slack!
 
 ### Assignments
 Participants should review the [Assignment Submission Guide](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md) for instructions on how to complete assignments in this module.
 
 Assignments are typically due on the Sunday following the module's live learning session.
 
-1. [Git Assignment](./02_activities/assignments/git_assignment.md)
+1. [Combined Shell/Git Assignment](https://github.com/UofT-DSI/shell/blob/main/02_activities/assignments/assignment_instructions.md)
 
-### Homework
-1. [Git Homework](./02_activities/homework/git_homework_1.md)
+### Practice problems
+1. [Git Basics](https://uoft-dsi.github.io/git/interactive_problems.html#git_basics)
+1. [Git Moderate](https://uoft-dsi.github.io/git/interactive_problems.html#git_moderate)
+1. [Git Advanced](./02_activities/practice/git_advanced.md)
 
 
 ## Contacts
@@ -61,7 +63,7 @@ Assignments are typically due on the Sunday following the module's live learning
  
 ##  Delivery of the Learning Module
 
-This module will include live learning sessions and optional, asynchronous work periods. During live learning sessions, the Technical Facilitator will introduce and explain key concepts and demonstrate core skills. Learning is facilitated during this time. Before and after each live learning session, the instructional team will be available for questions related to the core concepts of the module. Optional work periods are to be used to seek help from peers, the Learning Support team, and to work through the homework and assignments in the learning module, with access to live help. Content is not facilitated, but rather this time should be driven by participants. We encourage participants to come to these work periods with questions and problems to work through. 
+This module will include live learning sessions and optional, asynchronous work periods. During live learning sessions, the Technical Facilitator will introduce and explain key concepts and demonstrate core skills. Learning is facilitated during this time. Before and after each live learning session, the instructional team will be available for questions related to the core concepts of the module. Optional work periods are to be used to seek help from peers, the Learning Support team, and to work through the practice problems and assignments in the learning module, with access to live help. Content is not facilitated, but rather this time should be driven by participants. We encourage participants to come to these work periods with questions and problems to work through. 
  
 Participants are encouraged to engage actively during the learning module. They key to developing the core skills in each learning module is through practice. The more participants engage in coding along with the instructional team, and applying the skills in each module, the more likely it is that these skills will solidify. 
 
@@ -134,7 +136,7 @@ Feel free to use the following as resources:
 
 * **.github**: Contains issue templates and pull request templates for the repository.
 * **materials**: Module slides and interactive notebooks (.ipynb files) used during learning sessions.
-* **activities**: Contains graded assignments, exercises, and homework to practice concepts covered in the learning module.
+* **activities**: Contains graded assignments and practice problems to apply concepts covered in the learning module.
 * **instructional_team**: Resources for the instructional team.
 * **this_cohort**: Additional materials and resources for this cohort.
 * **.gitignore**: Files to exclude from this folder, specified by the Technical Facilitator
