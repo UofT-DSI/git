@@ -136,7 +136,7 @@ Feel free to use the following as resources:
 
 * **.github**: Contains issue templates and pull request templates for the repository.
 * **materials**: Module slides and interactive notebooks (.ipynb files) used during learning sessions.
-* **activities**: Contains graded assignments and practice problems to apply concepts covered in the learning module.
+* **activities**: Contains graded assignments and ungraded practice problems to apply concepts covered in the learning module.
 * **instructional_team**: Resources for the instructional team.
 * **this_cohort**: Additional materials and resources for this cohort.
 * **.gitignore**: Files to exclude from this folder, specified by the Technical Facilitator
