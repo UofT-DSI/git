@@ -70,7 +70,7 @@ git remote rm origin                      # Remove a remote called 'origin'
 ```bash
 git fetch origin                          # Download latest changes from 'origin' (no merge)
 git pull origin <branch>                  # Fetch + merge updates from a remote branch
-git pull --rebase origin <branch>         # Fetch + merge with rebase to handle conflicts
+git pull --no-rebase origin <branch>      # Fetch + merge without rebasing to preserve the commit history
 git pull upstream main                    # Pull latest changes from upstream main branch
 git push origin <branch>                  # Push your local branch to 'origin'
 git push -u origin main                   # Push and set upstream tracking for main
