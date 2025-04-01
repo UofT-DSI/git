@@ -171,5 +171,4 @@ git push origin <branch>                  # Push feature branch to GitHub
 * Revert your local branch to the correct commit
     * `git switch -C [branch name] [commit id]` to overwrite the branch, and set it to the specified commit ID
 * Overwrite the GitHub repository with the updated branch
-    * `git push origin [branch name] –-force`
-
+    * `git push origin [branch name] --force`
