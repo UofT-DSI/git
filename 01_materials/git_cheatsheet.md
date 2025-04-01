@@ -1,4 +1,4 @@
-# 🧠 Git Commands Cheatsheet (with Inline Comments)
+# Git Commands Cheatsheet
 
 ## 🔧 Configuration
 
