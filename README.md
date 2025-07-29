@@ -46,7 +46,7 @@ Assignments are typically due on the Sunday following the module's live learning
 
 ## Contacts
 
-**Questions can be submitted to the _#dc-help_ channel on Slack**
+**Questions can be submitted to the #cohort-7-help channel on Slack**
 
 * Technical Facilitator:   
   * **Simeon Wong**  
