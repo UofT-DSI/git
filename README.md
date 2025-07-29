@@ -55,10 +55,10 @@ Assignments are typically due on the Sunday following the module's live learning
 * Learning Support Staff: 
   * **Dmytro Bonislavskyi**  
   dmytro.bonislavskyi@gmail.com
-  * **Laura MacKew**  
-  lauramackew@gmail.com
-  * **Moniz Chan**  
-  moniz.chan@utoronto.ca
+  * **Gayathri Girish Kumar**  
+  gayathri.girishkumar@mail.utoronto.ca
+  * **Xindi Zhang**  
+  xindi.zhang@mail.utoronto.ca
 
  
 ##  Delivery of the Learning Module
