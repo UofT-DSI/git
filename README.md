@@ -74,7 +74,7 @@ Participants are encouraged to engage actively during the learning module. They 
 * Participants are encouraged to ask questions, and collaborate with others to enhance their learning experience.
 * Participants must have a computer and an internet connection to participate in online activities.
 * Participants must not use generative AI such as ChatGPT to generate code in order to complete assignments. It should be used as a supportive tool to seek out answers to questions you may have.
-* We expect learners to have completed the [onboarding repo](https://github.com/UofT-DSI/onboarding/tree/main/onboarding_documents).
+* We expect learners to have completed the [onboarding repo](https://github.com/UofT-DSI/onboarding/blob/main/environment_setup/README.md).
 * We encourage participants to default to having their camera on at all times, and turning the camera off only as needed. This will greatly enhance the learning experience for all participants and provides real-time feedback for the instructional team. 
 
 ## Resources
