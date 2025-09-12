@@ -131,6 +131,7 @@ Feel free to use the following as resources:
 ├── 04_this_cohort
 ├── .gitignore
 ├── LICENSE
+├── SETUP.md
 └── README.md
 ```
 
@@ -141,5 +142,6 @@ Feel free to use the following as resources:
 * **this_cohort**: Additional materials and resources for this cohort.
 * **.gitignore**: Files to exclude from this folder, specified by the Technical Facilitator
 * **LICENSE**: The license for this repository.
+* **SETUP.md**: Contains the steps required to set up this repo for the module.
 * **README**: This file.
 
