@@ -1,3 +1,4 @@
 .DS_Store
 .vscode/
 /03_instructional_team/node_modules
+.venv
