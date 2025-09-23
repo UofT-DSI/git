@@ -143,5 +143,5 @@ Feel free to use the following as resources:
 * **.gitignore**: Files to exclude from this folder, specified by the Technical Facilitator
 * **LICENSE**: The license for this repository.
 * **SETUP.md**: Contains the steps required to set up this repo for the module.
-* **README**: This file.
+* **README.md**: This file.
 
