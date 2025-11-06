@@ -39,6 +39,12 @@ git remote add origin https://github.com/[your-username]/recipe-book.git
 git remote -v
 ```
 
+### 4.2 Pull the latest changes
+
+```bash
+git pull upstream main
+```
+
 ### 4.3 Create a New Branch
 
 Create a new branch and checkout
