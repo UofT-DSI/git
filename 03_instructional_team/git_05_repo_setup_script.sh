@@ -14,7 +14,7 @@ echo ""
 echo "1. Creating repository..."
 mkdir -p team-playlist-demo
 cd team-playlist-demo
-git init
+git init -b main
 echo "✓ Repository initialized"
 echo ""
 
