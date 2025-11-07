@@ -33,7 +33,7 @@ Let's rename the instructor repo to `upstream`, meaning where we get our changes
 Then set our fork as the `origin`.
 
 ```bash
-git remote mv origin upstream
+git remote rename origin upstream
 git remote -v
 git remote add origin https://github.com/[your-username]/recipe-book.git
 git remote -v
