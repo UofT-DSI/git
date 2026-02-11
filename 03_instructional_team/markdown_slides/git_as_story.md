@@ -270,17 +270,6 @@ Merging combines branches:
 2. Combine the **differences** from both branches
 3. Create a new commit with combined work
 
-
----
-
-## 11. The Staging Area
-
-**Problem:** Sometimes you make a bunch of unrelated edits.
-
-**Best practice:** Package related changes together in one commit.
-
-**Challenge:** What if you forgot to commit before making other changes?
-
 ---
 
 ## 11. The Staging Area

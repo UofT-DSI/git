@@ -16,7 +16,7 @@ ls
 
 Clone an existing repository from GitHub:
 ```bash
-git clone https://github.com/simeon-demo/recipe-book.git
+git clone https://github.com/gvwilson/recipe-book.git
 ```
 
 Navigate into the cloned repository:

@@ -47,25 +47,21 @@ Participants should review the [Assignment Submission Guide](https://github.com/
 **Questions can be submitted to the #cohort-8-help channel on Slack**
 
 * Technical Facilitator:   
-  * **Simeon Wong**  
-    me@simeon.dev
+  * **Greg Wilson** gvwilson@third-bit.com
 
 * Learning Support Staff: 
-  * **Dmytro Bonislavskyi**  
-  dmytro.bonislavskyi@gmail.com
-  * **Moniz Chan**  
-  chanmoniz526@gmail.com
-  * **Xindi Zhang**  
-  xindi.zhang@mail.utoronto.ca
+  * **Dmytro Bonislavskyi** dmytro.bonislavskyi@gmail.com
+  * **Sergii Khomych** svkhomich1@gmail.com / khsergvl
+  * **Anjali Shrivastava** anju_shrivastava@yahoo.com / anjali-deshpande-hub
 
- 
+
 ##  Delivery of the Learning Module
 
 This module will include live learning sessions and optional, asynchronous work periods. During live learning sessions, the Technical Facilitator will introduce and explain key concepts and demonstrate core skills. Learning is facilitated during this time. Before and after each live learning session, the instructional team will be available for questions related to the core concepts of the module. Optional work periods are to be used to seek help from peers, the Learning Support team, and to work through the practice problems and assignments in the learning module, with access to live help. Content is not facilitated, but rather this time should be driven by participants. We encourage participants to come to these work periods with questions and problems to work through. 
- 
+
 Participants are encouraged to engage actively during the learning module. They key to developing the core skills in each learning module is through practice. The more participants engage in coding along with the instructional team, and applying the skills in each module, the more likely it is that these skills will solidify. 
 
- 
+
 ## Requirements
 
 * Participants are not expected to have any coding experience; the learning content has been designed for beginners.
@@ -142,4 +138,3 @@ Feel free to use the following as resources:
 * **LICENSE**: The license for this repository.
 * **SETUP.md**: Contains the steps required to set up this repo for the module.
 * **README.md**: This file.
-
