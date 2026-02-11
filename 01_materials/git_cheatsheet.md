@@ -3,11 +3,11 @@
 ## 🔧 Configuration
 
 ```bash
-git --help                                      # Show overview of Git commands
-git config --global user.name "Simeon"          # Set your Git username globally
-git config --global user.email "me@simeon.dev"  # Set your Git email globally
-git config list --global                        # List global Git configuration settings
-git config --global core.editor "code --wait"   # Set VS Code as default Git editor
+git --help                                               # Show overview of Git commands
+git config --global user.name "gvwilson"                 # Set your Git username globally
+git config --global user.email "gvwilson@third-bit.com"  # Set your Git email globally
+git config list --global                                 # List global Git configuration settings
+git config --global core.editor "code --wait"            # Set VS Code as default Git editor
 ```
 
 ---

@@ -3,7 +3,7 @@
 ## Setup: Clone the Team Playlist Repository
 
 ```bash
-git clone https://github.com/simeon-demo/team-playlist.git
+git clone https://github.com/gvwilson/team-playlist.git
 cd team-playlist-demo
 ```
 
