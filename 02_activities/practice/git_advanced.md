@@ -5,7 +5,7 @@ The `dtxe/DSI_git_assignment` repository contains a short Python script that
 loads the TTC Bus Delay dataset, computes the average delay by route, then 
 plots the average delay as a histogram.
 s
-1. Clone this repository: https://github.com/dtxe/DSI_git_assignment
+1. Clone this repository: https://github.com/gvwilson/DSI_git_assignment
     * `git clone`
 
 ### Task 1
