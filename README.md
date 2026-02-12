@@ -68,7 +68,7 @@ Participants are encouraged to engage actively during the learning module. They 
 * Participants are encouraged to ask questions, and collaborate with others to enhance their learning experience.
 * Participants must have a computer and an internet connection to participate in online activities.
 * Participants must not use generative AI such as ChatGPT to generate code in order to complete assignments. It should be used as a supportive tool to seek out answers to questions you may have.
-* We expect learners to have completed the [onboarding repo](https://github.com/UofT-DSI/onboarding/blob/main/environment_setup/README.md).
+* We expect participants have completed the [onboarding repo](https://github.com/UofT-DSI/onboarding/blob/main/environment_setup/README.md).
 * We encourage participants to default to having their camera on at all times, and turning the camera off only as needed. This will greatly enhance the learning experience for all participants and provides real-time feedback for the instructional team. 
 
 ## Resources
@@ -81,7 +81,7 @@ Feel free to use the following as resources:
 - [GitHub](https://education.github.com/git-cheat-sheet-education.pdf)
 
 ### Videos
-- [Most common git commands](https://www.youtube.com/watch?v=PSJ63LULKHA)
+- [Most common Git commands](https://www.youtube.com/watch?v=PSJ63LULKHA)
 - [Git explained in 100 seconds](https://www.youtube.com/watch?v=hwP7WQkmECE)
 - [Git vs GitHub: What's the difference?](https://www.youtube.com/watch?v=wpISo9TNjfU)
 
@@ -102,7 +102,7 @@ Feel free to use the following as resources:
 - Since we're all working through the same material, there's a good chance one of your peers has encountered the same error, or has already solved it
 - Try searching in the DSI Certificates Slack help channel for whether a similar query has been posted
 - If the question has not yet been answered, post your question!
-   - Describe your the overall goals, the context, and the specific details of what you were trying to accomplish
+   - Describe your overall goals, the context, and the specific details of what you were trying to accomplish
    - Make sure to **copy and paste** your code, your error message
    - Copying and pasting helps:
       1. your peers and teaching team quickly try out your code
@@ -134,7 +134,7 @@ Feel free to use the following as resources:
 * **activities**: Contains graded assignments and ungraded practice problems to apply concepts covered in the learning module.
 * **instructional_team**: Resources for the instructional team.
 * **this_cohort**: Additional materials and resources for this cohort.
-* **.gitignore**: Files to exclude from this folder, specified by the Technical Facilitator
+* **.gitignore**: Files to exclude from this repository, specified by the Technical Facilitator.
 * **LICENSE**: The license for this repository.
 * **SETUP.md**: Contains the steps required to set up this repo for the module.
 * **README.md**: This file.
