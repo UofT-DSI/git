@@ -50,7 +50,7 @@ Participants should review the [Assignment Submission Guide](https://github.com/
   * **Greg Wilson** gvwilson@third-bit.com
 
 * Learning Support Staff: 
-  * **Dmytro Bonislavskyi** dmytro.bonislavskyi@gmail.com
+  * **Dmytro Bonislavskyi** dmytro.bonislavskyi@gmail.com / Dmytro-Bonislavskyi
   * **Sergii Khomych** svkhomich1@gmail.com / khsergvl
   * **Anjali Shrivastava** anju_shrivastava@yahoo.com / anjali-deshpande-hub
 

@@ -4,7 +4,7 @@
 
 ```bash
 git clone https://github.com/gvwilson/team-playlist.git
-cd team-playlist-demo
+cd team-playlist
 ```
 
 ---
@@ -19,8 +19,8 @@ git branch -a
 
 You should see:
 - `main` (your current branch)
-- `remotes/origin/Max-song-change`
-- `remotes/origin/Em-song-change`
+- `remotes/origin/max-changes`
+- `remotes/origin/em-changes`
 
 ### View the current playlist
 ```bash
@@ -36,7 +36,7 @@ This is the original playlist that both Max and Em will modify.
 ### Merge Max's branch into main
 ```bash
 # Merge Max's changes
-git merge origin/Max-song-change
+git merge origin/max-changes
 ```
 
 ✅ **Success!** This merge works smoothly.
@@ -55,7 +55,7 @@ Notice how the playlist has been updated with Max's song choice.
 ### Try to merge Em's branch
 ```bash
 # Try to merge Em's changes
-git merge origin/Em-song-change
+git merge origin/em-changes
 ```
 
 💥 **CONFLICT!** Git displays an error message:
@@ -65,7 +65,7 @@ CONFLICT (content): Merge conflict in playlist.txt
 Automatic merge failed; fix conflicts and then commit the result.
 ```
 
-**What happened?** Both Max and Em edited the same line. Git doesn't know which version to keep!
+**What happened?** Both Max and Em edited the same lines. Git doesn't know which version to keep.
 
 ---
 
@@ -86,18 +86,24 @@ cat playlist.txt
 **What you'll see:**
 ```
 <<<<<<< HEAD
-Song 5: Blinding Lights - The Weeknd
-Last updated: Tuesday by Max
+Song 5: Hard Sun - Gordon Peterson
+Song 6: Constant Craving - k.d. lang
+
+Total songs: 6
+Last updated: Tuesday
 =======
-Song 5: Levitating - Dua Lipa
+Song 5: Hard Sun - Eddie Vedder
+Song 6: Hand in My Pocket - Alanis Morissette
+
+Total songs: 6
 Last updated: Tuesday by Em
->>>>>>> origin/Em-song-change
+>>>>>>> origin/em-changes
 ```
 
 **Understanding conflict markers:**
 - `<<<<<<< HEAD` - Current version (Max's change, already in main)
 - `=======` - Separator between the two versions
-- `>>>>>>> origin/Em-song-change` - Incoming version (Em's change)
+- `>>>>>>> origin/em-changes` - Incoming version (Em's change)
 
 ---
 
@@ -108,23 +114,30 @@ Open `playlist.txt` in your text editor and choose ONE of these options:
 
 **Option 1: Keep Max's version**
 ```
-Song 5: Blinding Lights - The Weeknd
-Last updated: Tuesday by Max
+Song 5: Hard Sun - Gordon Peterson
+Song 6: Constant Craving - k.d. lang
+
+Total songs: 6
+Last updated: Tuesday
 ```
 
 **Option 2: Keep Em's version**
 ```
-Song 5: Levitating - Dua Lipa
+Song 5: Hard Sun - Eddie Vedder
+Song 6: Hand in My Pocket - Alanis Morissette
+
+Total songs: 6
 Last updated: Tuesday by Em
 ```
 
-**Option 3: Keep both songs!**
+**Option 3: Keep both!**
 ```
-Song 5: Blinding Lights - The Weeknd
-Song 6: Levitating - Dua Lipa
+Song 5: Hard Sun - Gordon Peterson
+Song 6: Constant Craving - k.d. lang
+Song 7: Hand in My Pocket - Alanis Morissette
 
-Total songs: 6
-Last updated: Tuesday by Team
+Total songs: 7
+Last updated: Tuesday by Max and Em
 ```
 
 **Important:** Delete ALL conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`)
@@ -145,7 +158,7 @@ git status
 ### Commit the merge
 ```bash
 # Complete the merge with a commit
-git commit -m "Merge Em-song-change: resolved playlist conflict"
+git commit -m "Merge em-changes: resolved playlist conflict"
 ```
 
 ### View the merge in history
