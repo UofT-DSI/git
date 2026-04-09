@@ -47,12 +47,14 @@ Participants should review the [Assignment Submission Guide](https://github.com/
 **Questions can be submitted to the #cohort-8-help channel on Slack**
 
 * Technical Facilitator:   
-  * **Greg Wilson** gvwilson@third-bit.com
+  * **Keli Chiu**  
+    keli.chiu.kc@gmail.com
 
 * Learning Support Staff: 
-  * **Dmytro Bonislavskyi** dmytro.bonislavskyi@gmail.com / Dmytro-Bonislavskyi
-  * **Sergii Khomych** svkhomich1@gmail.com / khsergvl
-  * **Anjali Shrivastava** anju_shrivastava@yahoo.com / anjali-deshpande-hub
+  * **Vishnou Vinayagame**  
+  vakiloroayaei.kasra@gmail.com
+  * **Kasra Vakiloroayaei**  
+  vakiloroayaei.kasra@gmail.com
 
 
 ##  Delivery of the Learning Module
