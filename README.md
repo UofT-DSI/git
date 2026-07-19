@@ -51,8 +51,8 @@ Participants should review the [Assignment Submission Guide](https://github.com/
     keli.chiu.kc@gmail.com
 
 * Learning Support Staff: 
-  * **Vishnou Vinayagame**  
-  vakiloroayaei.kasra@gmail.com
+  * **Dmytro Bonislavskyi**  
+  dmytro.bonislavskyi@gmail.com
   * **Kasra Vakiloroayaei**  
   vakiloroayaei.kasra@gmail.com
 
