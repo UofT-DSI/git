@@ -58,3 +58,17 @@ Feedback should be given through the pull request a participant has made. Techni
 ## generate_slides.sh
 
 This script is designed to convert Markdown files located in a specified folder into slide presentations using Marp CLI, allowing for the generation of either HTML or PDF formats based on user input. It includes an option to apply a custom CSS theme to the slides by specifying a theme path. The script also provides a help function detailing its usage, options, and examples for convenience. It ensures the necessary directories exist, validates the presence of Marp CLI on the system, processes each Markdown file found in the specified directory, and outputs the generated slides into a designated output folder, displaying the status of each operation and a completion message. The only configuration needed is to set where the md files are and where you would like the pdf/html files to be placed.
+
+Example command to generate themed PDF slides:
+
+```bash
+cd 03_instructional_team
+./generate_slides.sh --pdf --theme markdown_slides/themes/dsi_certificates_theme.css
+```
+
+To generate themed HTML slides instead, use:
+
+```bash
+cd 03_instructional_team
+./generate_slides.sh --html --theme markdown_slides/themes/dsi_certificates_theme.css
+```

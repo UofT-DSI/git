@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# This script extends the recipe-book repository from git_03_repo_setup_script.sh
+# This script extends the recipe-book repository created by git_03_repo_setup_script.sh
 # It adds a community-recipes directory and a GitHub Actions workflow to
 # automatically approve and merge pull requests that add recipes to the
 # community-recipes directory, provided they are text files without executable
