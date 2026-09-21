@@ -60,13 +60,21 @@ Today we connect **Git on your computer** with **GitHub online**.
 
 ## Learning Goals
 
-By the end of this section, you should be able to explain:
+By the end of this section, you will be able to explain:
 
 1. What Git is for
 2. What **modified**, **staged**, and **committed** mean
 3. What **local** and **remote** repositories are
 4. The difference between **clone** and **fork**
 5. How to fork a GitHub repo and clone your fork
+
+![bg right:40% w:350](./images/git_2x.png)
+
+---
+
+## Why do we need Git?
+
+![bg right:70% w:450](./images/phd101212s.gif)
 
 ---
 
